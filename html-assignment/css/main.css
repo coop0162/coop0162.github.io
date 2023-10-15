@@ -1,7 +1,7 @@
 /*  help to referance week 5 notes and IMD website  */
 
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif
   font-size: 18px;
 }
 
@@ -12,8 +12,8 @@ header,footer{
 .site-title{
   color:blue;
 }
- #my-image [src$=".jpg"] {
-  box-shadow: 0,0,2px,1px,black;
+#my-image {
+  box-shadow:0 0 2px 1px black;
 }
 
 /* https://www.w3schools.com/cssref/index.php help to undertand "properities" of css , referance page */
@@ -22,7 +22,22 @@ list-style: square;
  
 }
 
-ul li:nth-child(odd){
+main ul li:nth-child(odd){
   background-color: red;
+ 
+  
+  
+}
+nav a {
+ text-decoration: none;
+ background-color: aqua;
+ border: 2px dotted blue;
+  
+}
+nav a:hover{
+  background-color:yellow;
+}
+nav ul li {
+  list-style: none;
   
 }
