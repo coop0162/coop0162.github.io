@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Beck's Coffee shop - Contact Us  </title>
+    <link re="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+   
+    <header>
+      <h1> Beck's coffee shop Contact US</h1>
+      <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html" class="current">Contact Us</a></li>
+      </ul>
+    </nav>
+    </header>
+    <main>
+      <h2>Contact us</h2>
+    
+      <table >
+        <caption> Hours of Operation</caption>
+        <thead>
+          <th>Day</th>
+          <th>Hours</th>
+
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday-Fri</td>
+            <td>6AM-9AM</td>
+            </tr>
+            <tr>
+            <td>Sat </td>
+            <td>8AM-11Pm</td>
+            </tr>
+            <tr>
+              <td> Sub</td>
+              <td> Closed</td>
+            </tr>
+          
+        </tbody>
+      </table>
+
+      <!-- adding section for contact form  -->
+      <section>
+        <h3> We would love ro hear from you!</h3>
+        <!-- adding form -->
+        <form action="thanks.html" method="post">
+
+      
+        <div> 
+        <label for="fullname">your name</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Jane/Joe Doe">
+        </div>
+        <div>
+        <label for="youremail">Email</label>
+        <input type="email" id="youremail" placeholder="Algonquin Email" value="@algonquinlive.com" required>
+      </div>
+<div>
+  <label for="message">message</label>
+  <textarea name="message" id="message"></textarea>
+
+</div>
+<div>
+  <label for=""> tickets? &#40;sold in pairs &#41;</label>
+  <input type="number" name="tickets?" id="tickets?" min ="2" max="10" step="2" value="2">
+
+</div>
+<div>
+  <label for="row"></label>
+  <select name="row" id="row">
+    <option value="front">Front</option>
+    <option value ="centre"> centre</option>
+    <option value="back">back row</option>
+      </select>
+</div>
+<div>
+  <h3> Have you been hear before </h3>
+  <label for="yes">yes</label>
+  <input type="radio" name ="past" id="yes">
+  <label for="no">NO</label>
+  <input type="radio" name="past" id="no">
+
+</div>
+<div>
+  <h3> policies</h3>
+  <label for="policies"> I agree with the terms and condition.</label>
+  <input type="checkbox" name="policies" id="policies">
+</div>
+<button type="button">Submit</button>
+</form>
+      </section>
+    </main>
+    <!-- Site footter -->
+    <footer>
+      <!-- Special symbols HTML can be find by google HMTL entities  -->
+      Copyright &copy; Beck's Coffee Shop, 2023
+    </footer>
+
+  </body>
+</hmtl>
