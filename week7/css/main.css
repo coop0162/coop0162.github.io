@@ -5,13 +5,34 @@ This css comment shortcut fpr adding the comment is command/ctrl + /
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: dark slategray;
-  background-image:url(../images/white_brick_wall.png);
+  background-image: url(../images/white_brick_wall.png);
 
 }
+
 /* box model example */
-section p{
+section p {
   width: 50%;
-  
+  /* single value = top/bottom/left/right
+  2 value= first value = top/bottom, second value = left/right */
+  padding: 1 em .5em;
+  /* top right bottom (left clockwise) */
+  margin: -1em 2em 2em 2em;
+
+
+
+
+}
+
+.container {
+  /* create a container containing everything inside the body tag */
+  max-width: 1200px;
+  margin: 0 auto;
+
+
+
+}
+img{
+width: 100%;
 
 }
 
@@ -38,28 +59,36 @@ nav ul {
 
 
 }
+nav ul li {
+  display: inline-block;
+  width: 49%;
+  padding: 1em;
+  box-sizing: border-box;
 
+}
 /*  selecting child element mulitple levels */
 nav ul a {
+  display: block;
   color: darkslategray;
   text-decoration: none;
+
 }
 
 /* selecting element with ID value 
 As best practice avoid using ID for styles ( for spectificity )*/
 #Treatoftheweek {
   /* colour image repeat position-x position-y  */
-  background: cadetblue url(../images/bread.jpg) no-repeat center ;
+  background: cadetblue url(../images/bread.jpg) no-repeat center;
   /* background-size  cover image is cover ( regardless of h and W ) */
   background-size: cover;
-font-size: 1.25rem; 
-/* 16 px *1.25= 20 px  */
-/* padding push elements away walls from the walls  */
-padding: 1em;
-/* 1 em * 20px( elements font size) =20 px  */
-width: 50%;
-/* height is 100% of the browser size and it is dynamic */
-/* height 100vh; */
+  font-size: 1.25rem;
+  /* 16 px *1.25= 20 px  */
+  /* padding push elements away walls from the walls  */
+  padding: 1em;
+  /* 1 em * 20px( elements font size) =20 px  */
+  width: 50%;
+  /* height is 100% of the browser size and it is dynamic */
+  /* height 100vh; */
 
 
 }
@@ -67,13 +96,39 @@ width: 50%;
 
 /* Selecting html elements with class name  */
 .blue-link {
+  padding: 5 em;
+  width: 300px;
   background-color: darkslategray;
   color: antiquewhite;
   text-decoration: none;
+
 }
 
 .large-text {
   font-size: 24px;
+
+}
+/* Example of Float
+ */
+ article,
+ aside{
+  width: 80%;
+  background-color: rgba(225, 255, 255, 0.6);
+  border: 1px solid black;
+  padding: 1.5 rem;
+  box-sizing: border-box;
+  float: left;
+
+ }
+
+ aside{
+  width: 20%;
+
+ }
+/* clear float from the section */
+
+section{
+  clear: both;
 }
 
 .white-text {
@@ -85,7 +140,7 @@ width: 50%;
 /* Direct child selector- will only select direct child of the parent */
 article>p {
   font-size: 24px;
-  
+
 
   /* css typography  properities  */
   font-weight: bold;
