@@ -1,7 +1,16 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
- 
+
 }
 
- 
-
+.widestar {
+  background-image: url(../images/lone-starfish-wide.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  margin: 0 auto;
+  
+}
+h1 {
+  font-size: large;
+}
