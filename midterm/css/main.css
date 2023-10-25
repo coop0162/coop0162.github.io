@@ -2,15 +2,22 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 
 }
-
+/*week 4,5 and 6 notes IMD website. 
+ helping to understand Css code- Linkedin Learning CSS Essential Training 
+videos 2.CSS Core concepts
+ID selectors
+class selectors
+Descendant combinators and selector lists
+The background property
+ */
 .widestar {
-  background-image: url(../images/lone-starfish-wide.jpg);
+
   background-repeat: no-repeat;
+  background-image: url(../images/lone-starfish-wide.jpg);
   background-position: center;
-  background-size: 30%;
-  margin: 0 auto;
   
+  margin: 0 auto;
 }
 h1 {
-  font-size: large;
+  
 }
