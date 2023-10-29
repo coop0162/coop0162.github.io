@@ -1,8 +1,10 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-
+  margin: 0;
+  padding:0;
 
 }
+
 /*week 4,5,6 and 7 notes IMD website. 
  helping to understand Css code- Linkedin Learning CSS Essential Training 
 videos 2.CSS Core concepts
@@ -13,31 +15,42 @@ The background property
 video 3.The css box model
 The box model properties 
 box-sizing and the box model fix
+4. layout floats and postion 
  */
- .widestar{
- padding: 200px;
- padding-top: 0px;
-margin: 0;
 
-
-
- /* https://www.w3schools.com/howto/howto_css_image_text.asp */
+.widestar {
+  padding-left: 280px;
+  position: cover;
 }
-h1{
-  font-size: 40px;
-  color: whitesmoke;
-  
-}
- 
 
-nav a{
-  padding: 110px;
-  padding-top: 0px;
-  margin:0;
+/* https://www.w3schools.com/howto/howto_css_image_text.asp */
+.fontimg {
+  text-align: center;
+ color: whitesmoke;
+  font-size: 45px;
+  margin-top: -105px;
+  position: static;
+}
+nav a {
   display: inline;
-  font-size:  36px ;
+ padding-left: 310px;
+  font-size: 30px;
   text-decoration: none;
- color: black;
+  color: black;
+  position: static;
+}
+h2{
+  margin-left: 240px;
+  padding: 5% 0 0 5%;
+  font-size: 36px;
+  color: brown;
+}
+p{
   
 }
 
+
+
+/* .starfish{
+  
+} */
