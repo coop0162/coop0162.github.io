@@ -24,6 +24,7 @@ box-sizing and the box model fix
 }
 
 /* https://www.w3schools.com/howto/howto_css_image_text.asp */
+/* h1 title is center and whitesmoke font */
 .fontimg {
   text-align: center;
  color: whitesmoke;
@@ -31,6 +32,7 @@ box-sizing and the box model fix
   margin-top: -105px;
   position: static;
 }
+/* nav bar centre  */
 nav a {
   display: inline;
  padding-left: 310px;
@@ -38,19 +40,27 @@ nav a {
   text-decoration: none;
   color: black;
   position: static;
+
 }
+/* h2 title is align left centre */
 h2{
   margin-left: 240px;
   padding: 5% 0 0 5%;
   font-size: 36px;
   color: brown;
-}
-p{
-  
+
 }
 
+div p{
+  margin-left: 50%;
+    position: relative;
+    top: 35%;
+    right : 25%;
+}
 
-
-/* .starfish{
+.starfish{
+  width: 250px ;
+  height: 250px ;
+  padding-right: ;
   
-} */
+}
