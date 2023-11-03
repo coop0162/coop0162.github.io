@@ -39,16 +39,19 @@ box-sizing and the box model fix
   color: whitesmoke;
   font-size: 45px;
 
-
 }
 
 
 /* Nav bar no dash bullets and inline text  Nav a-anchor no underline-week 4,5 and 6 notes*/
- li {
+  li {
   list-style: none;
   display: inline;
 
-
+  position: relative;
+  right: 35%;
+  padding-right: 28.25%;
+  margin-left: 1% ;
+  
 }
 
 /*a-anchor call class "bar"no underline-week 4,5 and 6 notes*/
@@ -56,93 +59,50 @@ box-sizing and the box model fix
   text-decoration: none;
   position: relative;
   left: 45%;
-
-
-
+  
 }
 
 /* Nav a-anchor hover change color underline
  week 4,5 and 6 notes */
-nav a:hover {
+a:hover {
   color: blueviolet;
   text-decoration: underline;
 
-
-
 }
-
-
-
-/* star fish image resize */
-/* 
-.starfish { */
- /* width: 320px;
-height: 320px;
-margin: auto;
-position: absolute;
-left:10%;
-bottom: 10%; */
-
-
-
-
-
-/*  */
-  /* width: 275px;
-    height: 275px;
-    margin-left: 325px;
-    margin-right: 325px;
-    margin-top: 0;
-    margin-bottom: 0;
-    border: 3px solid black;
-   */
-
-
-
-
-/*  paragraphy  */
+h2{
+  position: relative;
+  left: 10%;
+  color: brown;
+}
+  .starfish{
+    max-width: 300px;
+    position: relative;
+    left: 10%;
+  }
 p{
-/* text-align: center;
-left: 50%;
-margin: auto;
-float: left;
-font-size: 15px; */
-
-  /* margin-left: 650px;
-  margin-right: 300px;
-  margin-top: -300px;
-  margin-bottom: auto;
-  font-size: 16px;
-  padding-right: 25px;
-  text-align: left;
-  background-color: lightblue; */
-
-}
-
-
-
-.form {
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-top: 0;
-  margin-bottom: 0;
-  /* background-color: lightblue; */
-  border: 5px solid black;
-
-}
-
-footer {
+ margin-left: 15%;
+ margin-right: 15%;
+ margin-top:-25%;
   text-align: right;
-  margin-right: 300px;
-  margin-left: 300px;
-  background-color: lightblue;
+}
+h3{
+position: relative;
+  left: 10%;
+  bottom: 15% ;
+  color: brown;
+  font-size: 20 px;
+
+}
+.listfact {
+  list-style:circle;
+  position: relative;
+
+  left: 10%;
+  color: brown;
+
 }
 
 
-/* rough draft- midterm break attempt
-nav bar centre  */
-/* nav,main{
-  background-color: lightblue;
- 
- 
-} */
+
+
+
