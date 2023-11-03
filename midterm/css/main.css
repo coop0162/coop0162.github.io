@@ -43,7 +43,7 @@ box-sizing and the box model fix
 
 
 /* Nav bar no dash bullets and inline text  Nav a-anchor no underline-week 4,5 and 6 notes*/
-  li {
+    ul li {
   list-style: none;
   display: inline;
 
@@ -91,18 +91,31 @@ position: relative;
   bottom: 15% ;
   color: brown;
   font-size: 20 px;
-
 }
+
 .listfact {
-  list-style:circle;
   position: relative;
-
   left: 10%;
-  color: brown;
+  bottom: 15% ;
 
+  
+  color: brown;
+  font-size: 20 px;
 }
 
 
+
+form ul li {
+ 
+  position: relative;
+  left:5%;
+  bottom: 15% ;
+
+  
+  color: brown;
+  font-size: 20 px;
+}
+  
 
 
 
