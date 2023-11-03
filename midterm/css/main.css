@@ -1,12 +1,14 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding:0;
-  box-sizing: 0;
-background-position: 0;
-background-color: aqua;
-
 }
+
+/* body of the content box similar to container */
+.bodybox {
+  margin: 0 auto;
+  max-width: 1250px;
+}
+
+
 
 /*week 4,5,6 and 7 notes IMD website. 
  helping to understand Css code- Linkedin Learning CSS Essential Training 
@@ -20,31 +22,58 @@ The box model properties
 box-sizing and the box model fix
 4. layout floats and postion 
  */
-
+/* wide starfish photo top of page */
 .widestar {
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-bottom: 15px;
-  position: cover;
-  width: 950px;
-
-
-
+  position: relative;
+  left: 10%;
+  margin-top: 0;
+ 
 }
 
 /* https://www.w3schools.com/howto/howto_css_image_text.asp */
-/* h1 title is center and whitesmoke font */
+/* h1 title is center, on starfish wide top image and whitesmoke font */
 .fontimg {
-  text-align: center;
- color: whitesmoke;
+  position: absolute;
+  left: 45%;
+  top: 25%;
+  color: whitesmoke;
   font-size: 45px;
-  margin-top: -105px;
-  position: static;
-}
-/* nav bar centre  */
- a {
-  display:inline-block;
 
+
+}
+
+
+/* Nav bar no dash bullets and inline text */
+nav ul li {
+  list-style: none;
+  display: inline;
+
+
+}
+
+/* Nav a-anchor no underline */
+a {
+  text-decoration: none;
+  position: relative;
+  left: 45%;
+
+
+
+}
+
+/* Nav a-anchor hover change color underline */
+nav ul a:hover {
+  color: blueviolet;
+  text-decoration: underline;
+
+
+
+}
+
+/* rough draft- midterm break attempt
+nav bar centre  */
+/* a {
+  display:inline-block;
   margin-right: -30px; 
   margin-left: 350px;
   font-size: 25px;
@@ -52,84 +81,88 @@ box-sizing and the box model fix
   color: black;
   text-align: center;
   /* background-color: lightblue; */
- 
- 
+/* } */
 
-}
-/* h2 title is align left centre */
-h2{
-  margin-left: 290px;
+/*  rough draft- midterm break attempt*/
+/* margin-left: 290px;
   margin-right: 300px;
   padding: 2% 0 0 2%;
-  font-size: 36px;
+  
   margin-top: 0;
-  margin-bottom: 0 ;
+  margin-bottom: 0;
   color: brown;
-  /* background-color: lightblue; */
+  background-color: lightblue; */
+
+/* star fish image resize */
+/* 
+.starfish { */
+ /* width: 320px;
+height: 320px;
+margin: auto;
+position: absolute;
+left:10%;
+bottom: 10%; */
+
+
+
+
+
+/*  */
+  /* width: 275px;
+    height: 275px;
+    margin-left: 325px;
+    margin-right: 325px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 3px solid black;
+   */
 
 }
 
+
+/*  paragraphy  */
 p{
-  margin-left: 650px;
-  margin-right: 300px ;
+/* text-align: center;
+left: 50%;
+margin: auto;
+float: left;
+font-size: 15px; */
+
+  /* margin-left: 650px;
+  margin-right: 300px;
   margin-top: -300px;
   margin-bottom: auto;
   font-size: 16px;
-   padding-right: 25px;
-text-align:left;
-/* background-color: lightblue; */
-
-}
-
-.starfish{
-  width: 275px ;
-  height: 275px ;
-  margin-left: 325px;
-  margin-right: 325px ;
-  margin-top: 0;
-  margin-bottom: 0 ;
-  border: 3px solid black;
- 
-  
+  padding-right: 25px;
+  text-align: left;
+  background-color: lightblue; */
 
 }
 
 
-.listfact{
+
+.form {
   margin-left: 300px;
   margin-right: 300px;
   margin-top: 0;
-  margin-bottom: 0 ;
+  margin-bottom: 0;
   /* background-color: lightblue; */
-}
-
-h3{
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-top: 20px;
-  margin-bottom: 0 ;
-  padding-bottom: 20px;
-  padding-top:40px;
-  /* background-color: lightblue; */
-}
-.form{
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-top: 0;
-  margin-bottom: 0 ;
- /* background-color: lightblue; */
- border: 5px solid black;
+  border: 5px solid black;
 
 }
 
-footer{
+footer {
   text-align: right;
   margin-right: 300px;
   margin-left: 300px;
   background-color: lightblue;
 }
- nav,main{
+
+
+/* rough draft- midterm break attempt
+nav bar centre  */
+/* nav,main{
   background-color: lightblue;
  
  
-}
+} */
