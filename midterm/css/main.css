@@ -43,16 +43,16 @@ box-sizing and the box model fix
 }
 
 
-/* Nav bar no dash bullets and inline text */
-nav ul li {
+/* Nav bar no dash bullets and inline text  Nav a-anchor no underline-week 4,5 and 6 notes*/
+ li {
   list-style: none;
   display: inline;
 
 
 }
 
-/* Nav a-anchor no underline */
-a {
+/*a-anchor call class "bar"no underline-week 4,5 and 6 notes*/
+.bar {
   text-decoration: none;
   position: relative;
   left: 45%;
@@ -61,8 +61,9 @@ a {
 
 }
 
-/* Nav a-anchor hover change color underline */
-nav ul a:hover {
+/* Nav a-anchor hover change color underline
+ week 4,5 and 6 notes */
+nav a:hover {
   color: blueviolet;
   text-decoration: underline;
 
@@ -70,28 +71,7 @@ nav ul a:hover {
 
 }
 
-/* rough draft- midterm break attempt
-nav bar centre  */
-/* a {
-  display:inline-block;
-  margin-right: -30px; 
-  margin-left: 350px;
-  font-size: 25px;
-  text-decoration: none;
-  color: black;
-  text-align: center;
-  /* background-color: lightblue; */
-/* } */
 
-/*  rough draft- midterm break attempt*/
-/* margin-left: 290px;
-  margin-right: 300px;
-  padding: 2% 0 0 2%;
-  
-  margin-top: 0;
-  margin-bottom: 0;
-  color: brown;
-  background-color: lightblue; */
 
 /* star fish image resize */
 /* 
@@ -117,7 +97,7 @@ bottom: 10%; */
     border: 3px solid black;
    */
 
-}
+
 
 
 /*  paragraphy  */
