@@ -22,7 +22,7 @@ The box model properties
 box-sizing and the box model fix
 4. layout floats and postion 
  */
-/* wide starfish photo top of page */
+/* wide starfish photo top of page  vscode */
 .widestar {
   position: relative;
   left: 10%;
@@ -31,7 +31,7 @@ box-sizing and the box model fix
 }
 
 /* https://www.w3schools.com/howto/howto_css_image_text.asp */
-/* h1 title is center, on starfish wide top image and whitesmoke font */
+/* h1 title is center, on starfish wide top image and whitesmoke font  vscode */
 .fontimg {
   position: absolute;
   left: 45%;
@@ -42,11 +42,10 @@ box-sizing and the box model fix
 }
 
 
-/* Nav bar no dash bullets and inline text  Nav a-anchor no underline-week 4,5 and 6 notes*/
-    ul li {
+/* Nav bar no dash bullets and inline text  Nav a-anchor no underline-week 4,5 and 6 notes  vscode*/
+nav ul li {
   list-style: none;
   display: inline;
-
   position: relative;
   right: 35%;
   padding-right: 28.25%;
@@ -54,8 +53,8 @@ box-sizing and the box model fix
   
 }
 
-/*a-anchor call class "bar"no underline-week 4,5 and 6 notes*/
-.bar {
+/*a-anchor no underline-week 4,5 and 6 notes  vscode*/
+ a{
   text-decoration: none;
   position: relative;
   left: 45%;
@@ -63,28 +62,33 @@ box-sizing and the box model fix
 }
 
 /* Nav a-anchor hover change color underline
- week 4,5 and 6 notes */
+ week 4,5 and 6 notes  vscode */
 a:hover {
   color: blueviolet;
   text-decoration: underline;
 
 }
+/* week 4,5, 6 and 7 vscode notes h2 postive left brown life of starfish */ 
 h2{
   position: relative;
   left: 10%;
   color: brown;
+
 }
+/* week 4,5, 6 and 7 vscode notes starfish left image left max width 300px */ 
   .starfish{
     max-width: 300px;
     position: relative;
     left: 10%;
   }
+  /* week 4,5, 6 and 7 vscode notes trying to align and position text with image */ 
 p{
  margin-left: 15%;
  margin-right: 15%;
  margin-top:-25%;
   text-align: right;
 }
+/* week 4,5, 6 and 7 vscode notes */ 
 h3{
 position: relative;
   left: 10%;
@@ -92,29 +96,39 @@ position: relative;
   color: brown;
   font-size: 20 px;
 }
+/* week 4,5, 6 and 7 vscode notes */ 
+h4{
+  position:relative;
+  left: 10%;
+  bottom: 15% ;
+  color: blue;
+}
 
+
+/* week 4,5, 6 and 7 vscode notes */ 
 .listfact {
   position: relative;
   left: 10%;
   bottom: 15% ;
-
-  
   color: brown;
   font-size: 20 px;
+  
 }
 
 
 
+/* week 4,5, 6 and 7 vscode notes */ 
 form ul li {
  
   position: relative;
   left:5%;
   bottom: 15% ;
+  color: blue;
+  font-size: 15px;
+  list-style: none;
 
-  
-  color: brown;
-  font-size: 20 px;
 }
+
   
 
 
