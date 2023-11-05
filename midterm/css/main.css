@@ -1,11 +1,13 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 /* body of the content box similar to container */
 .bodybox {
   margin: 0 auto;
-  max-width: 1250px;
+  max-width: 1225px;
+  background-color: lightskyblue;
 }
 
 
@@ -27,6 +29,7 @@ box-sizing and the box model fix
   position: relative;
   left: 10%;
   margin-top: 0;
+  
  
 }
 
@@ -51,13 +54,17 @@ nav ul li {
   padding-right: 28.25%;
   margin-left: 1% ;
   
+  
 }
 
 /*a-anchor no underline-week 4,5 and 6 notes  vscode*/
  a{
+  
   text-decoration: none;
   position: relative;
   left: 45%;
+  color: blue;
+  
   
 }
 
@@ -66,6 +73,7 @@ nav ul li {
 a:hover {
   color: blueviolet;
   text-decoration: underline;
+
 
 }
 /* week 4,5, 6 and 7 vscode notes h2 postive left brown life of starfish */ 
@@ -80,56 +88,80 @@ h2{
     max-width: 300px;
     position: relative;
     left: 10%;
+    
   }
   /* week 4,5, 6 and 7 vscode notes trying to align and position text with image */ 
 p{
  margin-left: 15%;
  margin-right: 15%;
  margin-top:-25%;
-  text-align: right;
+padding-left: 20%;
+padding-left: 19.25%;
+  text-align: left;
+  
 }
-/* week 4,5, 6 and 7 vscode notes */ 
+/* week 4,5, 6 and 7 vscode notes h3 facts about fishs */ 
 h3{
 position: relative;
   left: 10%;
   bottom: 15% ;
   color: brown;
-  font-size: 20 px;
+  font-size: 20px;
 }
-/* week 4,5, 6 and 7 vscode notes */ 
+/* week 4,5, 6 and 7 vscode notes  contact to learn more  */ 
 h4{
   position:relative;
   left: 10%;
   bottom: 15% ;
   color: blue;
+  font-size: 20px;
 }
 
 
-/* week 4,5, 6 and 7 vscode notes */ 
+/* week 4,5, 6 and 7 vscode notes bullets of facts */ 
 .listfact {
   position: relative;
   left: 10%;
   bottom: 15% ;
   color: brown;
-  font-size: 20 px;
-  
+  font-size: 20px;
 }
 
 
 
-/* week 4,5, 6 and 7 vscode notes */ 
-form ul li {
+/* week 4,5, 6 and 7 vscode notes the form  */ 
+section form ul li {
  
   position: relative;
-  left:5%;
+  left: 10%;
   bottom: 15% ;
-  color: blue;
-  font-size: 15px;
+  color: blue; 
+ font-size: 15px;
   list-style: none;
+ 
+ 
 
 }
+h5{
+  position: relative;
+  left: 10%;
+  bottom: 15% ;
+  color: blue;
+  font-style: bold;
+  font-size: 18px;
+  list-style: none;
+}
+radioin{
+  display: inline-block;
 
-  
+
+
+}
+footer{
+position: relative;
+ left: 70%;
+}
+
 
 
 
