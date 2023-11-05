@@ -135,6 +135,7 @@ section form ul li {
   position: relative;
   left: 10%;
   bottom: 15% ;
+  margin-left:-12%;
   color: blue; 
  font-size: 15px;
   list-style: none;
@@ -145,17 +146,25 @@ h5{
   left: 10%;
   bottom: 15% ;
   color: blue;
-  font-style: bold;
+  font-display:bold;
   font-size: 18px;
-  list-style: none;
+  /* margin-left:0.5%; */
+  
 }
  form{
   border: 3px solid black;
-  padding-left: 10% ;
-  padding-right:15% ;
-  
+  position: relative;
+  left: 10%;
+  bottom: 15%;
+ margin-right: 15% ; 
  }
+ form .ratios{
+  display: inline;
+  position: relative;
+  left: auto;
+  margin-left:0.5%;
 
+}
 
 
 
