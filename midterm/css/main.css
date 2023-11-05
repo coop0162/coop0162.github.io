@@ -1,9 +1,11 @@
+/* body and created font family text */
 body {
   font-family: Arial, Helvetica, sans-serif;
   
 }
 
-/* body of the content box similar to container */
+/* body of the content box similar to container 
+week 4 and 5 notes and IMD website*/
 .bodybox {
   margin: 0 auto;
   max-width: 1225px;
@@ -13,7 +15,7 @@ body {
 
 
 /*week 4,5,6 and 7 notes IMD website. 
- helping to understand Css code- Linkedin Learning CSS Essential Training 
+ helping to understand puroposes Css code- Linkedin Learning CSS Essential Training 
 videos 2.CSS Core concepts
 ID selectors
 class selectors
@@ -57,7 +59,7 @@ nav ul li {
   
 }
 
-/*a-anchor no underline-week 4,5 and 6 notes  vscode*/
+/*a-anchor no underline-week 4,5 and 6 notes vscode and IMD webiste*/
  a{
   
   text-decoration: none;
@@ -69,28 +71,28 @@ nav ul li {
 }
 
 /* Nav a-anchor hover change color underline
- week 4,5 and 6 notes  vscode */
+ week 4,5 and 6 notes vscode and IMD website*/
 a:hover {
   color: blueviolet;
   text-decoration: underline;
 
 
 }
-/* week 4,5, 6 and 7 vscode notes h2 postive left brown life of starfish */ 
+/* week 4,5, 6 and 7 vscode and IMD website notes h2 postive left brown life of starfish */ 
 h2{
   position: relative;
   left: 10%;
   color: brown;
 
 }
-/* week 4,5, 6 and 7 vscode notes starfish left image left max width 300px */ 
+/* week 4,5, 6 and 7 vscode and IMD website notes starfish left image left max width 300px */ 
   .starfish{
     max-width: 300px;
     position: relative;
     left: 10%;
     
   }
-  /* week 4,5, 6 and 7 vscode notes trying to align and position text with image */ 
+  /* week 4,5, 6 and 7 vscode and Website notes trying to align and position text with image */ 
 p{
  margin-left: 15%;
  margin-right: 15%;
@@ -100,7 +102,7 @@ padding-left: 19.25%;
   text-align: left;
   
 }
-/* week 4,5, 6 and 7 vscode notes h3 facts about fishs */ 
+/* week 4,5, 6 and 7 vscode and IMD websitenotes h3 facts about fishs */ 
 h3{
 position: relative;
   left: 10%;
@@ -108,7 +110,7 @@ position: relative;
   color: brown;
   font-size: 20px;
 }
-/* week 4,5, 6 and 7 vscode notes  contact to learn more  */ 
+/* week 4,5, 6 and 7 vscode and IMD website notes  contact to learn more  */ 
 h4{
   position:relative;
   left: 10%;
@@ -118,7 +120,7 @@ h4{
 }
 
 
-/* week 4,5, 6 and 7 vscode notes bullets of facts */ 
+/* week 4,5, 6 and 7 vscode and IMD website notes bullets of facts */ 
 .listfact {
   position: relative;
   left: 10%;
@@ -129,7 +131,7 @@ h4{
 
 
 
-/* week 4,5, 6 and 7 vscode notes the form  */ 
+/* week 4,5, 6 and 7 vscode and IMD website notes the form  */ 
 section form ul li {
  
   position: relative;
@@ -141,6 +143,7 @@ section form ul li {
   list-style: none;
 
 }
+/* heading h5 for the form /* week 4,5, 6 and 7 vscode and IMD website notes the form  */ 
 h5{
   position: relative;
   left: 10%;
@@ -149,14 +152,16 @@ h5{
   font-display:bold;
   font-size: 18px;
   /* margin-left:0.5%; */
-  
-}
+  /* has a border around the form portion
+  /* week 4,5, 6 and 7 vscode and IMD website notes the form  */  
+} 
  form{
   border: 3px solid black;
   position: relative;
   left: 10%;
   bottom: 15%;
  margin-right: 15% ; 
+ /* created a class to radios and align the yes, no and maybe question /* week 4,5, 6 and 7 vscode and IMD website notes the form  */ 
  }
  form .ratios{
   display: inline;
@@ -166,11 +171,11 @@ h5{
 
 }
 
-
+/* footer aligned to the right of the page */
 
 footer{
 position: relative;
- left: 70%;
+ left: 79%;
 }
 
 
