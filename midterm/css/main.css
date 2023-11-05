@@ -7,7 +7,7 @@ body {
 .bodybox {
   margin: 0 auto;
   max-width: 1225px;
-  background-color: lightskyblue;
+  background-color: lightgreen;
 }
 
 
@@ -151,8 +151,8 @@ h5{
   font-size: 18px;
   list-style: none;
 }
-radioin{
-  display: inline-block;
+.radioin{
+  display: inline;
 
 
 
