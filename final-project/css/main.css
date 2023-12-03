@@ -1,0 +1,9 @@
+/* font stlye https://fonts.google.com/specimen/Open+Sans?query=open+sans
+ font-family: 'Open Sans', sans-serif; */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  font-size: 12px;
+ }
+
