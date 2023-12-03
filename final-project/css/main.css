@@ -1,9 +1,75 @@
 /* font stlye https://fonts.google.com/specimen/Open+Sans?query=open+sans
  font-family: 'Open Sans', sans-serif; */
 
-body{
+ /* week 7 IMD notes website */
+html{
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
-  font-size: 12px;
+
+
+  
+  margin: 0 auto;
+  
+
  }
 
+
+ .toolbas{
+ background-color: black;
+ }
+
+/* week 7 IMD notes website css box sizing. box-sizing element on the css style page */
+*,
+*:before
+*:after{
+  box-sizing: inherit;
+}
+
+a{
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+ position: relative;
+ left: 45%;
+  margin-bottom: 3%;
+padding:2% 2% 2% 2% ;
+  color: goldenrod;
+ 
+
+
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  color: black;
+  background-color: goldenrod;
+
+  
+}
+/* .search{
+
+} */
+.cuecard{
+  background-image: url("../images/main-banner.jpg");
+background-position:  100%;
+  
+}
+
+h1{
+  color: white;
+  font-size: 55px;
+  background-color: rgb(40, 37, 37);
+  margin-bottom: 3%;
+}
+
+.button1{
+  position: relative;
+  right: 45%;
+ 
+ 
+}
+.cons{
+  width: 20%;
+  height: auto;
+}
