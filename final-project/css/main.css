@@ -2,29 +2,26 @@
  font-family: 'Open Sans', sans-serif; */
 
  /* week 7 IMD notes website */
+ /*  whole html file */
 html{
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
-
-
-  
   margin: 0 auto;
-  
+}
 
- }
-
-
+/*  tool section background */
  .toolbas{
  background-color: black;
  }
 
-/* week 7 IMD notes website css box sizing. box-sizing element on the css style page */
+/* week 7 IMD notes website css box sizing. box-sizing element on the css style page standards */
 *,
 *:before
 *:after{
   box-sizing: inherit;
 }
 
+/*  anchor tool bar column  */
 a{
   text-decoration: none;
   font-size: 12px;
@@ -40,10 +37,15 @@ padding:2% 2% 2% 2% ;
 
 }
 
-a:hover, a:focus {
+
+.tol:hover, a:focus {
   text-decoration: none;
   color: black;
   background-color: goldenrod;
+width: 400px ;
+height: auto;
+
+
 
   
 }
@@ -67,9 +69,29 @@ h1{
   position: relative;
   right: 45%;
  
- 
 }
-.cons{
+
+.cons , .cons:hover
+.con:focus
+{
+  text-decoration: none;
+  color: black;
+  background-color: goldenrod;
+width: 400px ;
+height: auto;
   width: 20%;
   height: auto;
+  
 }
+
+.cardabout{
+  background-color: rgb(225, 185, 126);
+}
+
+.aboutus{
+  font-size: 50px;
+}
+.p2{
+  margin-bottom: 2%;
+}
+
