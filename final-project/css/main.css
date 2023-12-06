@@ -1,97 +1,166 @@
-/* font stlye https://fonts.google.com/specimen/Open+Sans?query=open+sans
+/* /* font stlye https://fonts.google.com/specimen/Open+Sans?query=open+sans
  font-family: 'Open Sans', sans-serif; */
 
- /* week 7 IMD notes website */
- /*  whole html file */
-html{
+/* week 7 IMD notes website */
+/*  whole html file */
+/* html {
   font-family: 'Open Sans', sans-serif;
-  box-sizing: border-box;
+  /* box-sizing: border-box; ?*/
+  /* max-width: 1200px;
   margin: 0 auto;
+
 }
 
 /*  tool section background */
- .toolbas{
- background-color: black;
- }
+/* .toolbas {
+  background-color: black; */
+
 
 /* week 7 IMD notes website css box sizing. box-sizing element on the css style page standards */
-*,
-*:before
-*:after{
+/* *,
+*:before *:after {
   box-sizing: inherit;
-}
+} */
 
-/*  anchor tool bar column  */
-a{
+/* anchor  nav tool bar column  */
+/* a {
   text-decoration: none;
   font-size: 12px;
   display: flex;
   flex-direction: column;
- position: relative;
- left: 45%;
+  position: relative;
+  left: 45%;
   margin-bottom: 3%;
-padding:2% 2% 2% 2% ;
+  padding: 2% 2% 2% 2%;
   color: goldenrod;
- 
 
 
-}
 
+} */
 
-.tol:hover, a:focus {
+/* name class of all toolbar with anchor ?  */
+/* .tol:hover,
+a:focus {
   text-decoration: none;
   color: black;
   background-color: goldenrod;
-width: 400px ;
-height: auto;
+  width: 400px;
+  height: auto; */
 
 
 
-  
-}
+  /* trying to expand search bar  */
+/* } */
+
 /* .search{
 
 } */
-.cuecard{
+/* background image ? */
+/* .cuecard {
   background-image: url("../images/main-banner.jpg");
-background-position:  100%;
-  
-}
+  background-position: 100%;
 
-h1{
+} */
+
+/* heaing 1  */
+/* h1 {
   color: white;
   font-size: 55px;
   background-color: rgb(40, 37, 37);
   margin-bottom: 3%;
-}
+} */
 
-.button1{
+/* button class config */
+/* .button1 {
   position: relative;
   right: 45%;
- 
-}
 
-.cons , .cons:hover
-.con:focus
-{
+} */
+
+/* make button connect with us  */
+/* .cons,
+.cons:hover .con:focus {
   text-decoration: none;
   color: black;
   background-color: goldenrod;
-width: 400px ;
-height: auto;
+  width: 400px;
+  height: auto;
   width: 20%;
   height: auto;
-  
-}
 
-.cardabout{
+} */
+
+/* colour background card */
+/* .cardabout {
+  background-color: rgb(225, 185, 126);
+} */
+
+/* about us class heading   */
+/* .aboutus {
+  font-size: 50px;
+} */
+
+/* paragraphy 2 about us  */
+/* .p2 {
+  margin-bottom: 2%;
+  font-size: 25px;
+  
+} */
+/* head 2 our services  */
+/* h2 {
+  font-size: 50px;
+} */
+/* head 3 digital transformation  */
+/* h3 {
+  font-size: 25px;
+} */
+/* paragraph class  */
+/* .p3 {
+  font-size: 10px;
+} */
+/* digital plan link button */
+/* .digbutton {
+  position: relative;
+  right: 45%;
+} */
+/*  */
+/* .buttons,
+.buttons:hover,
+.buttons:focus {
+  text-decoration: none;
+  color: black;
+  background-color: lightgray;
+  width: 400px;
+  height: auto;
+  width: 20%;
+  height: auto;
+
+} */
+/* 
+.digialpoc {
   background-color: rgb(225, 185, 126);
 }
 
-.aboutus{
-  font-size: 50px;
+h4 {
+  font-size: 25px;
 }
-.p2{
+.p4{
   margin-bottom: 2%;
+  font-size: 10px;
 }
+ .plans-buttons:hover , 
+.plans-buttons:focus
+{
+  text-decoration: none;
+  color: black;
+  background-color: lightgray;
+  width: 400px;
+  height: auto;
+  width: 20%;
+  height: auto;
+}
+.plans-buttons{
+
+}  
+
 
