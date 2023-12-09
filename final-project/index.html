@@ -1,388 +1,301 @@
 <!DOCTYPE html>
 <html lang="zxx">
-<!-- connecting css links -->
+  <!-- connecting css links -->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Three Star Media </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Three Star Media</title>
 
-  <!-- google font styles links https://fonts.google.com/specimen/Open+Sans?query=open+sans  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap"
-    rel="stylesheet">
+    <!-- google font styles links https://fonts.google.com/specimen/Open+Sans?query=open+sans  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/main.css">
-
-</head>
-<!-- body with class called pocket -->
-
-<body>
-  <div class="boxset">
-    <div class="width-max margin">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <!-- body with class called pocket -->
+  <!-- week 4 note website and web dev 1 midterm project create image  nav bar  -->
+  <body>
+    <div class="boxset">
       <header>
-        <!-- week 4 IMD note website and my web dev 1 mid-term project referance  creating logo banner image  with class star-logo   -->
-        <!-- navigation bar with class -->
-        <div class="tool-but">
+        <div>
           <nav>
             <ul>
-              <li> <img class="star-logo" src="./images/logo.png" alt="star background Banner logo">
-              </li>
-              <!-- get Notes week 3 and 4 VSCode ID -->
               <li>
-                <div id="home"></div>
+                <img class="star-logo" src="./images/logo.png" alt="star" />
               </li>
-
-              <li><a class="tol" href="#">Home</a></li>
-              <li><a class="tol" href="#aboutus">About Us</a></li>
-              <li><a class="tol" href="#service">Services</a></li>
-              <li><a class="tol" href="#team">Team</a></li>
-              <li><a class="tol" href="#contactus">Contact</a></li>
-              <!-- week 4 and week 5 IMD Note website and my web dev 1 mid-term project referance 
-            https://www.w3schools.com/tags/att_input_type_radio.asp  understanding radio button-need same name sync togther  My web dev 1 Mid-term project code referance for magnifying glass symbol https://www.w3schools.com/charsets/ref_emoji_symbols.asp   Left magnifying glass symbol
+              <li><a href="#">Home</a></li>
+              <li><a href="#aboutus">About Us</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#team"></a>Team</li>
+              <li><a href="#contactus">Coontact</a></li>
+            </ul>
+            <ul>
+              <li class="search">
+                <label for="search">Search</label>
+              </li>
+              <li class="search">
+                <input
+                  name="search"
+                  placeholder="search"
+                  type="search"
+                  id="search"
+                />
+                <!--https://www.w3schools.com/charsets/ref_emoji_symbols.asp   Left magnifying glass symbol
           magnifying glass symbol
           https://www.w3schools.com/charsets/tryit.asp?deci=128269 
           Left magnifying glass symbol Dec code &#128269
-          -->
-
-              <li class="search"><label for="search">search</label></li>
-              <li class="search"><input name="search" placeholder="search" type="search" id="search"></li>
-              <li class="search"><button type="button">&#128269;</button></li>
+  -->
+              </li>
+              <li class="search">
+                <button type="button">&#128269;</button>
+              </li>
             </ul>
+          </nav>
         </div>
-        </nav>
       </header>
-
-
-      <!-- call class main div ,section -->
       <main>
-
-        <Section class="welcome">
+        <section class="welcome">
           <div class="width-max margin">
-            <!-- place image office scene background and header 1 with grey background -->
-            <!-- <img class="main-banner" src="./images/main-banner.jpg" alt="office scene"> -->
-
             <div class="wel-p">
               <h1>Welcome to Three Star Media</h1>
-
-              <!---https://loremipsum.io/generator/?n=5&t=p -->
-              <!-- call class p1  -->
-              <P> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut
-                labore et
-                dolore.
-                magna aliqua. Elit sed vulputate mi sit amet mauris commodo quis. Libero id
-                .</P>
-
-
-
-              <!-- created button that connect with us
-           https://www.w3schools.com/charsets/ref_utf_arrows.asp
-            https://www.w3schools.com/charsets/tryit.asp?deci=11208
-             Misc Symbols and Arrows-UTF-8 arrows
-            Hex 2B00-2BFF / Ddec 11008-11263 side ways triangle point right
-            for Button
-   -->
-              <!-- seletive class button week 10 example html code vs code-->
-              <a class="cons" href="#" class="buttons" target="_blank">Connect with us &#11208; </a>
-
-
-            </div>
-          </div>
-        </Section>
-    </div>
-
-
-    <!-- call class of section div and image about us  -->
-    <div class="boxes">
-      <section class="width-max margin">
-        <div class="tex-image">
-          <div class="im-ping">
-            <img src="images/about-us.jpg" alt="ping pong table office scene">
-          </div>
-          <div class="abou-p">
-            <h2>About Us</h2>
-
-            <!-- paragrph call class -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et
-              dolore
-              magna aliqua. Elit sed vulputate mi sit amet mauris commodo quis. Libero id faucibus nisl tincidunt </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore
-              magna aliqua. Elit sed vulputate mi sit amet mauris
-            </p>
-          </div>
-        </div>
-      </section>
-
-
-      <section class="service">
-        <div class="width-max margin"></div>
-        <div class="titles-h">
-          <h2>Our Services</h2>
-        </div>
-
-        <div class="dig-card">
-          <img class="tech" src="images/digital.jpg" alt="desktop and person holding a smartphone our Services">
-          <div class="title-p">
-            <h3>Digial Transformation</h3>
-            <div>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore
-                magna aliqua. Elit sed vulputate mi sit amet mauris
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                deserunt itaque laudantium explicabo a dicta dignissimos
+                nesciunt .
               </p>
-
-
-              <!-- created button that connect with us
-    https://www.w3schools.com/charsets/ref_utf_arrows.asp
-   https://www.w3schools.com/charsets/tryit.asp?deci=11208
-   Misc Symbols and Arrows-UTF-8 arrows
-Hex 2B00-2BFF / Ddec 11008-11263 side ways triangle point right
-for Button
-seletive class button week 10 example html code vs code
-   -->
-
-              <a href="#" class="buttons" target="_blank"> Digitial Plan &#11208; </a>
+              <a href="#" class="buttons" target="_blank"
+                >Connect with us &#11208;</a
+              >
             </div>
           </div>
-
-          <!-- call class market for image and title h1 -->
-          <!-- get Notes week 3 and 4 VSCode ID  -->
-          <div class="mar-card">
-            <img class="market" src="images/marketing.jpg" alt=" marketing laptop sit on desk">
-            <div class="title-p">
-              <h4> Marketing</h4>
-
-
+        </section>
+        <div class="boxes">
+          <section class="width-max margin">
+            <div class="tex-imag">
+              <div class="im-ping">
+                <img src="images/about-us.jpg" alt="ping pong table" />
+              </div>
+              <div id="aboutus">
+                <div class="abou-p">
+                  <h2>About Us</h2>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sequi, ea autem ipsam reiciendis accusamus inventore esse.
+                    Magni, nihil, sit odit non aut, laudantium velit vel aperiam
+                    beatae quaerat accusantium. Sed!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="ser-container">
+            <div class="width-max margin">
+              <div class="titles-h">
+                <div id="service">
+                  <h2>Our Service</h2>
+                </div>
+                <div class="dig-card">
+                  <img
+                    class="tech"
+                    src="images/digital.jpg"
+                    alt="desktop and smartphone"
+                  />
+                </div>
+                <div class="title-p">
+                  <h3>Digital Transformation</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                    eveniet, maiores ea at nam modi illum, molestias,
+                  </p>
+                  <a href="#" class="button" target="_blank">
+                    Digital Plan &11208</a
+                  >
+                </div>
+                <div class="mar-card">
+                  <img
+                    class="market"
+                    src="images/marketing.jpg"
+                    alt=" marketing laptop desk"
+                  />
+                  <div class="title-p">
+                    <h4>Marketing</h4>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Aliquid non recusandae ipsam rerum possimus debitis
+                      eveniet odio officia magnam reiciendis deserunt repellat
+                      ullam sequi quis doloremque cumque, quaerat, veniam
+                      nostrum.
+                    </p>
+                    <a class="plan-button" href="#" target="_blank"
+                      >Marketing Plan &#11208;</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="video-card">
+                <img
+                  class="video-1"
+                  src="images/video.jpg"
+                  alt=" video hand holding "
+                />
+                <div class="title-p">
+                  <h5>Video Production</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repella!
+                  </p>
+                  <a href="#" class="button" target="_blank"
+                    >Video Plan &#11208;</a
+                  >
+                </div>
+              </div>
+              <div class="web-card">
+                <img class="web" src="images/web.jpg" alt="wed development" />
+                <div class="title-p">
+                  <h6>Web development</h6>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Accusantium quos reprehenderit architecto ad delectus porro
+                    quasi.
+                  </p>
+                  <a href="#" target="_blank">Video Plan &#11208;</a>
+                </div>
+              </div>
+              <div class="pri-card">
+                <img class="news" src="images/print.jpg" alt="newsapaper" />
+                <div class="title-p">
+                  <h5>Print</h5>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Natus, nemo non! Commodi suscipit asperiores magni possimus
+                    ipsa labore totam earum dolor corporis nihil. Cumque optio
+                    ipsum perspiciatis praesentium quis ipsa?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="vis-s">
+            <div class="special-margin">
+              <div class="vtex-p">
+                <h6>Our Vision</h6>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Aliquidt.
+                </p>
+                <a class="learn" href="#" target="_blank">
+                  Learn More &#11208;</a
+                >
+              </div>
+            </div>
+          </section>
+          <section class="team-s">
+            <div class="width-max margin">
+              <div id="team">
+                <div class="title-h">
+                  <h6>Teams</h6>
+                </div>
+                <img class="John" src="images/john.jpg" alt="photo of john" />
+              </div>
+              <div class="ti-tex-p">
+                <h2>John Doe</h2>
+                <h3>CEO and Co-owner</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. ?
+                </p>
+              </div>
+            </div>
+            <div class="width-max margin">
+              <img class="bob" src="images/bob.jpg" alt="bob phoot" />
+            </div>
+            <div class="ti-tex-p">
+              <h2>Bob Rite</h2>
+              <h3>CFO and Co-owner</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore
-                magna aliqua. Elit sed vulputate mi sit amet mauris
-
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos,
+                iure laborum, at reprehenderit tempora, quo sunt dicta .
               </p>
-              <!-- seletive class button week 10 example html code vs code-->
-
-              <a class="plans-buttons" href="#" target="_blank">Marketing Plans &#11208; </a>
             </div>
-          </div>
-
-
-          <div class="video-card">
-            <img class="video-1" src="images/video.jpg" alt="video a hand holdering smartphone">
-
-            <!-- h2 class header 2 and paragraphy -->
-            <div class="title-p">
-              <h5>Video Production</h5>
-
-              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore
-                magna aliqua. Elit sed vulputate mi sit amet mauris</p>
-              <a href="#" class="buttons" target="_blank"> VideoPlans &#11208; </a>
-
+          </section>
+          <section class="contact-pocket">
+            <div class="width-max margin">
+              <div id="contactus">
+                <div class="title-h">
+                  <h4>Contact Us</h4>
+                </div>
+                <div class="forms-1">
+                  <h2>Send us a Message</h2>
+                  \
+                  <form class="form" method="post" action="thankyou">
+                    <ul>
+                      <li><label for="fullname">Full Name</label></li>
+                      <li><input type="text" id="fullname" /></li>
+                      <li><label for="email">Emails</label></li>
+                      <li><input type="text" id="email" /></li>
+                      <li><label for="message">Message</label></li>
+                      <li><textarea name="message" id="message"></textarea></li>
+                      <li><button type="button">submit</button></li>
+                    </ul>
+                  </form>
+                </div>
+              </div>
             </div>
-          </div>
-
-          <!-- section call whole thing web deveopment image  -->
-          <div class="web-card">
-
-            <img class="web" src="images/web.jpg" alt=" wed developement">
-
-            <div class="title-p">
-              <h6>Web developement </h6>
-
-
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore
-                magna aliqua. Elit sed vulputate mi sit amet mauris</p>
-
-              <!-- button div class week
-        get week 10 VSCode notes  -->
-              <a href="#" target="_blank"> VideoPlans &#11208; </a>
+          </section>
+          <section class="open-s">
+            <div class="width-max margin">
+              <table>
+                <caption>
+                  hours pf Operation
+                </caption>
+                <thead>
+                  <tr>
+                    <th>Days</th>
+                    <th>Hours</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Monday-Friday</td>
+                    <td>9AM-6PM</td>
+                    <td>Saturday-SUnday</td>
+                    <td>Closed</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-          </div>
-
-          <div class="pri-card">
-            <img class="news" src="images/print.jpg" alt=" newspaper boxes">
-
-            <div class="title-p">
-              <h5> Print</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore
-                magna aliqua. Elit sed vulputate mi sit amet mauris</p>
-
-              <!-- class button 
-  button div class week
-        get week 10 VSCode notes  -->
-              <a href="#" target="_blank"> Print Plans &#11208;</a>
+          </section>
+          <section class="maps">
+            6
+            <div class="width-max margin">
+              <h2>Location</h2>
+              <div>
+                <!--  https://maps.app.goo.gl/o6mMxJkCFUtnVEWn7    https://www.google.com/maps/@45.3428378,-75.7492287,14z?entry=ttu -->
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22434.367609880253!2d-75.74922865!3d45.3428378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1701220444318!5m2!1sen!2sca"
+                  width="600"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
             </div>
-          </div>
-
+          </section>
         </div>
-      </section>
-
-      <!-- separate section  on it own blue and image is background  -->
-      <!-- section  of vision  -->
-      <section class="visionss">
-        <!-- <img src="images/vision.jpg" alt="paper boats floating "> -->
-        <div class="">
-          <!-- spical width and margin -->
-          <div class="vtex-p">
-            <h6> Our Vision</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut
-              labore et dolore
-              magna aliqua. Elit sed vulputate mi sit amet mauris</p>
-
-            <!-- anchor class for button  -->
-            <!-- button div class week
-        get week 10 VSCode notes  -->
-            <a class="learn" href="#" target="_blank"> Learn More &#11208;</a>
-          </div>
-          <div>
-      </section>
-
-
-      <!-- div whole to end of page section teams card -->
-      <Section class="teams">
-
+      </main>
+      <footer class="footers">
         <div class="width-max margin">
-          <div id="team">
-            <div class="titles-h">
-              <h6>Our Team</h6>
-            </div>
-            <img class="john" src="images/john.jpg" alt="">
-          </div>
-
-          <div class="ti-tex-p">
-            <h2>John Doe</h2>
-            <h3>CEO and Co-owner</h3>
-
-
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore
-              magna aliqua. Elit sed vulputate mi sit amet mauris</p>
-          </div>
+          Copyright &copy;Three Star Media ,2020 All images are taken from
+          Unsplash
         </div>
+      </footer>
     </div>
-
-    <!-- div whole to end of page section team card -->
-    <div class="width-max margin">
-      <img class="bob" src="images/bob.jpg" alt="">
-    </div>
-    <div class="ti-tex-p">
-      <h2>Bob Rite</h2>
-      <h3>CFO and Co-owner</h3>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt
-        ut labore et
-        dolore
-        magna aliqua. Elit sed vulputate mi sit amet mauris</p>
-
-    </div>
-  </div>
-  </div>
-  </section>
-
-
-  <!-- section class contact page with forms and maps -->
-  <section class="contactpocket">
-    <div class="width-max margin">
-      <div class="titles-h">
-        <h4> Contact Us</h4>
-      </div>
-      <div class="forms-1">
-        <h2 class="sends">Send us a Message </h2>
-        <!-- my Midterm project  how to create a form and IMD Websitese  Notes Weeks 3 and 4.  -->
-
-
-        <form class="form" method="post" action="thankyou.html">
-          <ul>
-            <li> <label for="fullname"> Full Name</label></li>
-            <li><input name="fullname" id="fullname" type="text" required>
-            </li>
-
-            <li>
-              <label for="emails">Emails</label> </li>
-            <li><input name="emails" id="emails" type="email" required>
-            </li>
-
-            <li>
-              <label for="messages">Messages</label></li>
-            <li><textarea name="messages" id="messages"></textarea>
-            </li>
-            <li><button type="button">submit</button></li>
-          </ul>
-        </form>
-      </div>
-    </div>
-    </div>
-  </section>
-  <!-- Week 4 VS code notes how create tables
-                and IMD Website Notes and tables -->
-  <section class="open">
-    <div class="width-max margin">
-      <table>
-        <caption>Hours of Operation</caption>
-        <thead>
-          <tr>
-            <th> Days</th>
-            <th> Hours </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td> Monday- Friday</td>
-            <td>9AM-6PM</td>
-
-            <td>Saturday-Sunday</td>
-            <td> Closed </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-  <section class="maps">
-    <div class="width-max margin">
-      <h2>Location</h2>
-      <!-- https://maps.app.goo.gl/o6mMxJkCFUtnVEWn7    https://www.google.com/maps/@45.3428378,-75.7492287,14z?entry=ttu -->
-  </section>
-  <section>
-    <div>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22434.367609880253!2d-75.74922865!3d45.3428378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1701220444318!5m2!1sen!2sca"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    </div>
-  </section>
-
-  </div>
-  </main>
-
-  <!--  footer copyright and home jumpback to home page  -->
-  <footer class="footer">
-    <div class="width-max margin">
-      Copyright &copy;Three Star Media ,2020
-      All images are taken from Unsplash
-    </div>
-  </footer>
-  <!-- get Notes week 3 and 4 VSCode  -->
-
-  <h3 id="homes">homeback</h3>
-
-  <a href="#homes">Home</a>
-
-
-
-  </div>
-  </div>
-</body>
-
+  </body>
 </html>
