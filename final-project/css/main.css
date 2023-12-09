@@ -1,2 +1,9 @@
 /* font stlye https://fonts.google.com/specimen/Open+Sans?query=open+sans
  font-family: 'Open Sans', sans-serif; */
+.boxset {
+  max-width: 1200px;
+  margin: auto 0;
+}
+nav ul li a {
+  display: flex;
+}
