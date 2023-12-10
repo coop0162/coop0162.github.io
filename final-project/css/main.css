@@ -1,10 +1,178 @@
 /* font stlye https://fonts.google.com/specimen/Open+Sans?query=open+sans
  font-family: 'Open Sans', sans-serif; */
 .boxset {
+  font-family: "Open Sans", sans-serif;
   max-width: 1200px;
   margin: auto 0;
+  box-sizing: border-box;
 }
-nav ul li a {
-  display: flex;
-  color: gold;
+/* week 7 boxsizing  and box element standards */
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+/* imag star logo */
+.star-logo {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  border-left: 5px solid #c78c06;
+}
+
+/* nav bar back ground colour */
+nav ul li {
+  background-color: black;
+  padding-bottom: 5%;
+}
+/* nav bar hover focus background */
+nav ul li:hover,
+nav ul li:focus {
+  background-color: #c78c06;
+  border: 5px solid black;
+}
+/* search tool bar home abour services teams contact */
+.to-bar {
+  position: relative;
+  left: 45%;
+  color: #c78c06;
+}
+
+/* hover and focus tool bar */
+.to-bar:hover,
+.to-bar:focus {
+  color: black;
+}
+/* search bar */
+.search {
+  padding-left: 45%;
+}
+/* week 6  */
+.width-max .margin {
+  margin: auto 0;
+  max-width: 1200px;
+}
+
+/* welcome to three star media page whole */
+
+.welcome,
+.wel-p {
+  background: #222 transparent;
+  background-image: url("../images/main-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+}
+/* welcome title and paragraph padding moving  */
+.wel-p {
+  padding-top: 15%;
+  background-color: lightgray;
+}
+.wel-p h1 {
+  font-size: 50px;
+  font-style: bold;
+  padding-bottom: 2%;
+}
+.wel-p p {
+  font-size: 12px;
+}
+
+/* https://www.w3schools.com/css/css3_buttons.asp
+created the button connect with us button  hover and focus
+ */
+.buttons,
+.buttons:hover,
+.buttons:focus {
+  position: relative;
+  top: 15%;
+  background-color: #c78c06;
+  border: 2px solid #c78c06;
+
+  width: 400px;
+  height: 100px;
+  padding: 4%;
+}
+
+.buttons {
+  color: #222;
+  margin-bottom: 5%;
+  margin-right: 5%;
+}
+/*About us page   */
+/* .boxes {
+    /* background-color: bisque; }*/
+
+/* ping-pon image- about us  */
+.im-ping img {
+  width: 400px;
+  height: 300px;
+  padding-top: 3%;
+  background-color: bisque;
+}
+/*about us margin */
+.abou-p {
+  margin-bottom: 15%;
+  padding-bottom: 5%;
+  background-color: bisque;
+}
+/* about us  about us h2 and pargraph */
+.abou-p h2 {
+  font-size: 30px;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+/* about us pargraphy */
+.abou-p p {
+  font-size: 11px;
+}
+/* service title background whitle */
+#service {
+  font-size: 30px;
+}
+
+/*  Our service page desktop and smartphone image  */
+.dig-card img {
+  width: 400px;
+  height: 300px;
+}
+/* Our services  */
+.title-p {
+  background-color: bisque;
+}
+/* title and paragraphy formate font size */
+.title-p h3 {
+  font-size: 15px;
+  padding-bottom: 3%;
+  padding-top: 1%;
+}
+.title-p p {
+  font-size: 10px;
+  padding-bottom: 5%;
+}
+/* digital plan button and icon */
+.button,
+.button:hover,
+.button:focus {
+  position: relative;
+  left: 5%;
+  background-color: black;
+  border: 1px solid black;
+
+  width: 350px;
+  height: 100px;
+  padding: 2%;
+}
+
+.button {
+  color: white;
+  margin-bottom: 3%;
+  margin-right: 3%;
+  font-size: small;
+}
+
+.market {
+  width: 400px;
+  height: 300px;
+  margin-top: 5px;
 }
