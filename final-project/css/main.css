@@ -76,7 +76,7 @@ week 5 text-decoration */
 /* both text and header */
 .wel-p h1 {
   font-size: 50px;
-  font-style: bold;
+  font-weight: bold;
   padding-bottom: 2%;
   color: white;
   background-color: black;
@@ -178,7 +178,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
 .title-p h3 {
   padding-bottom: 3%;
   padding-top: 1%;
-  font-size: ;
+  font-size: 25px;
 }
 .title-p p {
   padding-bottom: 5%;
@@ -227,7 +227,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
   background-size: cover;
   border-top: 5px solid white;
 
-  max-width: px;
+  max-width: 1200px;
   height: 200px;
 }
 /* paragrah */
@@ -262,7 +262,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
 #team {
   padding-bottom: 5%;
   font-size: 1rem;
-  font-weight: 900 bolder;
+  font-weight: 900;
 }
 /* teams container */
 .team-s {
