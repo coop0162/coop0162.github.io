@@ -114,7 +114,7 @@ week 5 text-decoration */
 .wel-p {
   padding-top: 15%;
   color: white;
-  background-color: #222;
+  padding: auto;
 }
 /* both text and header */
 .wel-p h1 {
@@ -122,7 +122,7 @@ week 5 text-decoration */
   font-weight: bold;
   padding-bottom: 2%;
   color: white;
-  background-color: black;
+  background-color: #222;
 }
 /* welcome paragraph  */
 .wel-p p {
@@ -159,11 +159,13 @@ created the button connect with us button  hover and focus
 /*About us page   */
 
 .im-ping img {
-  border: 5px solid #ffe6ac;
+  border: 8px solid #ffe6ac;
+  width: 500px;
+  height: 250px;
 }
 /*about us margin */
 .abou-p {
-  margin-bottom: 15%;
+  margin-bottom: 8%;
   padding-top: 5%;
   /* padding-bottom: 15%; */
   background-color: #ffe6ac;
@@ -177,7 +179,8 @@ created the button connect with us button  hover and focus
 /* service title background whitle /* all headings 1to 6 bold font and weight https://www.w3schools.com/cssref/pr_font_weight.php 
 https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
 #service {
-  font-size: 50px;
+  font-size: 70px;
+  margin-top: -5%;
 }
 
 /*  Our service page smartphone image  */
@@ -276,7 +279,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
 /* Teams section specification */
 /* our team title  */
 #team {
-  padding-bottom: 5%;
+  padding-bottom: 2%;
   font-size: 1rem;
   font-weight: 900;
 }
@@ -290,7 +293,8 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
   background-color: #ffe6ac;
   width: 500px;
   height: 220px;
-  padding-bottom: 0.45%;
+  padding-bottom: ;
+  margin-bottom: 30%;
 }
 /* text and heading 2  */
 .ti-tex-p h2 {
@@ -309,9 +313,10 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
 .ti-tex-p p {
   line-height: 1.5;
 }
-
+/* photo/image of bob */
 .bob {
   border-top: 5px solid white;
+  margin-top: -28%;
 }
 
 /* Contact us and send us a message form 
@@ -321,20 +326,85 @@ hour of Operation */
   max-width: 1200px;
   margin: auto 0;
 }
+
 /* forms  */
+#contactus {
+  margin-top: -15%;
+}
+/* full form */
+.forms-1 {
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+/* contact us  */
+.title-h {
+  font-size: 120px;
+}
+/* title for send us a message  */
+.sends {
+  font-size: medium;
+  margin-top: 2%;
+}
+
 .form ul li {
   font-size: 8px;
 }
-/*  table of open close operation */
-.open-s table tr th {
-  border: 2px solid black;
-  padding-right: 10%;
+.sub,
+.sub:hover,
+.sub:focus {
+  background-color: #222;
+  color: #c78c06;
+  font-size: 10px;
+  text-decoration: none;
+  padding: 0.3% 0.3% 0.3% 0.3%;
+  margin-top: 1%;
 }
+
+/*  table of open close operation */
+caption {
+  position: relative;
+  right: 34%;
+  font-weight: bold;
+}
+.open-s table tr th {
+  border: 1px solid black;
+  padding-right: 10%;
+  background-color: #ffe6ac;
+  width: 400px;
+  height: 30px;
+  font-size: 10px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
 .open-s table tr td {
-  border: 2px solid black;
+  border: 1px solid black;
+  width: 400px;
+  height: 30px;
+  font-size: 11px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 1%;
+  font-size: 10px;
+}
+/* map formate sizes image  */
+iframe {
+  width: 500px;
+  height: 300px;
+  margin-bottom: 3%;
 }
 
 /* footer */
 footer {
+  display: block;
   background-color: #222;
+  width: 500px;
+  height: 30px;
+  color: #ffe6ac;
+  font-size: 8px;
+  padding-bottom: 10%;
+  line-height: 2;
+}
+footer p {
+  font-weight: 8px;
 }

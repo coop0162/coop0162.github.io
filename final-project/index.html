@@ -14,7 +14,9 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&  display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
   </head>
@@ -236,13 +238,13 @@
                   <form class="form" method="post" action="thankyou">
                     <ul>
                       <li><label for="fullname">Full Name</label></li>
-                      <li><input type="text" id="fullname" /></li>
+                      <li><textarea input type="text" id="fullname"></textarea></li>
                       <li><label for="email">Emails</label></li>
-                      <li><input type="text" id="email" /></li>
+                      <li><textarea input type="text" id="email"></textarea></li>
                       <li><label for="message">Message</label></li>
                       <li><textarea name="message" id="message"></textarea></li>
-                      <li><button type="button">submit</button></li>
                     </ul>
+                    <a href="#" class="sub" target="_blank">Send</a>
                   </form>
                 </div>
               </div>
@@ -252,7 +254,7 @@
             <div class="width-max margin">
               <table>
                 <caption>
-                  hours of Operation
+                  Hours of Operation
                 </caption>
                 <thead>
                   <tr>
@@ -264,7 +266,8 @@
                   <tr>
                     <td>Monday-Friday</td>
                     <td>9AM-6PM</td>
-                    <td>Saturday-SUnday</td>
+                    <tr></tr>
+                    <td>Saturday-Sunday</td>
                     <td>Closed</td>
                   </tr>
                 </tbody>
@@ -292,8 +295,9 @@
       </main>
       <footer class="footers">
         <div class="width-max margin">
-          Copyright &copy;Three Star Media ,2020 All images are taken from
-          Unsplash
+          Copyright &copy;Three Star Media,2020
+          <p> All images are taken from
+          Unsplash</p>
         </div>
       </footer>
     </div>
