@@ -17,20 +17,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&  display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
   </head>
   <!-- body with class called pocket -->
   <!-- week 4 note website and web dev 1 midterm project create image  nav bar  -->
   <body>
     <div class="boxset">
-      <header class="width-max margin">
+      <header class="tools">
+        
+          <img class="star-logo" src="./images/logo.png" alt="star"/>
+        
         <div>
-          <nav>
-            <ul>
-              <li><img class="star-logo" src="./images/logo.png" alt="star" /></li>
-              <li>
-                <a class="to-bar" href="#">Home</a></li>
+          <nav class="mnav">
+             <ul class="bar-li">
+             <li><a class="to-bar" href="#">Home</a></li>
               <li><a class="to-bar"href="#aboutus">About Us</a></li>
               <li><a class="to-bar"href="#service">Service</a></li>
               <li><a class="to-bar"href="#team">Team</li>
@@ -60,15 +61,14 @@
           </nav>
         </div>
       </header>
-      <main>
+      <main class="containers">
         <section class="welcome">
           <div class="width-max margin">
             <div class="wel-p">
               <h1>Welcome to Three Star Media</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                deserunt itaque laudantium explicabo a dicta dignissimos
-                nesciunt Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum repudiandae mollitia, ab odio aliquid, laudantium ex.
+                deserunt itaque laudantium explicabo a dicta  a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas mollitia earum, c
               </p>
               <a href="#" class="buttons" target="_blank"
                 >Connect with us &#11208;</a
@@ -143,13 +143,14 @@
                   </div>
                 </div>
               </div>
+              <div class="cards">
               <div class="video-card">
                 <img
                   class="video-1"
                   src="images/video.jpg"
                   alt=" video hand holding "
                 />
-                <div class="title-p">
+                <div class="title-p vid">
                   <h5>Video Production</h5>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -183,6 +184,7 @@
                     ipsum perspiciatis praesentium 
                   </p>
                   <a href="#" class="button" target="_blank"> Print Plans &#11208;</a>
+                </div>
                 </div>
               </div>
             </div>
@@ -227,7 +229,7 @@
               </p>
             </div>
 
-            <div class="width-max margin">
+            <div class="width-max margin end">
               <div id="contactus">
                 <div class="title-h">
                   <h4>Contact Us</h4>
