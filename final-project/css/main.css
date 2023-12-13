@@ -836,9 +836,9 @@ footer p {
   /* forms  */
   .end{
     display: grid;
-    grid-template-row: 1fr 1fr ;
+    /* grid-template-row: 1fr 1fr ;
     justify-content: space-evenly;
-    flex-wrap: none;
+    flex-wrap: none; */
 
   }
   #contactus {
