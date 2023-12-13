@@ -411,9 +411,4 @@ footer p {
 
 /*  Desktop version */
 @media screen and (min-width: 760px) {
-  .star-logo {
-    width: 75px;
-    height: 75px;
-    left: 10%;
-  }
 }
