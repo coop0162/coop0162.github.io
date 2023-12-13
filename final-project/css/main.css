@@ -2,13 +2,14 @@
  font-family: 'Open Sans', sans-serif; */
 .boxset {
   font-family: "Open Sans", sans-serif;
-  max-width: 1200px;
   margin: auto 0;
+  max-width: 1200px;
+
   box-sizing: border-box;
 }
 .width-max .margin {
-  max-width: 1200px;
   margin: auto 0;
+  max-width: 1200px;
 }
 /* week 7 boxsizing  and box element standards */
 *,
@@ -56,12 +57,13 @@ p {
   height: 75px;
   position: relative;
   border-left: 5px solid #c78c06;
+  background-color: #c78c06;
 }
 
 /* nav bar back ground colour */
+
 nav ul li {
   background-color: black;
-
   padding-bottom: 5%;
 }
 /* nav bar hover focus background */
@@ -140,7 +142,6 @@ created the button connect with us button  hover and focus
   position: relative;
   top: 15%;
   background-color: #c78c06;
-  border: 2px solid #c78c06;
 
   width: 400px;
   height: 100px;
@@ -405,42 +406,567 @@ footer {
   padding-bottom: 10%;
   line-height: 2;
 }
+/* footer paragraphs */
 footer p {
   font-weight: 8px;
 }
 
-/*  Desktop version */
+
+
+
+
+
+/**************************Desktop version *********************************/
 @media screen and (min-width: 760px) {
-  /* tool bar and nav ajustment  */
-  nav {
+  .boxset {
+    font-family: "Open Sans", sans-serif;
+   
+    box-sizing: border-box;
+  }
+  .width-max .margin {
+    margin: auto 0;
+    max-width: 1200px;
+  }
+  /* week 7 boxsizing  and box element standards */
+  *,
+  *:after,
+  *:before {
+    box-sizing: inherit;
+  }
+  /* univerial setting image and heading and paragraphs */
+  /* all the images  */
+  img {
+    /* position: relative;
+    left: 25%; */
+  
+    width: 500px;
+    height: 400px;
+  }
+  /* all headings 1to 6 bold font and weight https://www.w3schools.com/cssref/pr_font_weight.php 
+  https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 22px;
+    font-weight: bolder;
+    font-weight: 900;
+    margin-bottom: 2%;
+    padding-top: 5%;
+  }
+  /* all paragraphs sentence spacing 
+  https://www.w3schools.com/cssref/pr_dim_line-height.php
+   */
+  p {
+    font-size: 10px;
+    font-weight: 500;
+    padding-bottom: 3%;
+    margin-bottom: 2%;
+    line-height: 1.5;
+  }
+  
+  /* imag star logo */
+  .star-logo {
+    width: 75px;
+    height: 75px;
+    position: relative;
+    border-left: 5px solid #c78c06;
+    background-color: #c78c06;
+  }
+  
+  /* nav bar back ground colour */
+  
+  .mnav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: none;
+    background-color: black;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+    max-width: 1200px;
+    
+  }
+  /* nav bar hover focus background */
+  nav ul li:hover,
+  nav ul li:focus {
+   display: flex;
+   align-items: flex-start;
+    background-color: #c78c06;
+    border: 5px solid black;
+  }
+  /* search tool bar home abour services teams contact
+  week 5 text-decoration */
+  .to-bar {
     display: flex;
     flex-direction: row;
   }
-  .to-bar .search {
-    display: flex;
+  
+
+  /* hover and focus tool bar */
+  .to-bar:hover,
+  .to-bar:focus {
+    color: black;
   }
-  .welcome {
-    background-image: url("../images/main-banner.jpg"); */
-     background-repeat: no-repeat;
-    background-size: center;
+  /* search bar */
+  .search {
+    padding-left: 45%;
+  }
+
+  
+  /* welcome to three star media page whole */
+  /* background welcome image */
+  .width-max .margin {
+    max-width: 1200px;
+    margin: auto 0;
+  }
+  .welcome{
+    background-image: url("../images/main-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 800px;
+
+
+  }
+  .wel-p {
+   width: 800px;
+    height: 300px;
+  }
+  /* welcome title and paragraph padding moving  */
+  
+  .wel-p {
+    box-sizing: border-box;
+
+    padding-left: 20%;
+    padding-top: 15%;
+    color: white;
+    background-size: no-repeat;
+    
+  }
+  /* both text and header */
+  .wel-p h1 {
+    box-sizing: border-box;
+    width: 800px;
+    height:200px ;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 2%;
+    color: white;
+    background-color: #222; 
+    margin-bottom:35%;
+    
+
+  }
+  /* welcome paragraph  */
+  .wel-p p {
+    width: 800px;
+    height:200px ;
+    box-sizing: border-box;
+    font-size: 12px;
+    background-color: #222;
+    margin-top: -50% ;
+
+  }
+  
+  /* https://www.w3schools.com/css/css3_buttons.asp
+  created the button connect with us button  hover and focus
+   unverial buttons expect for Our Vision
+   week 5  text-decoration: none;*/
+  .buttons,
+  .buttons:hover,
+  .buttons:focus {
     position: relative;
-    left: 15%;
-     margin-bottom: 45%;
-    max-width:1200px;
-    width:1200px
-    height: 550px;
+    top: 15%;
+    background-color: #c78c06;
+  
+    width: 500px;
+    height: 100px;
+    padding: 4%;
+  }
+  /*  connect with us -buttons 
+   text-decoration: none; */
+  .buttons {
+    color: #222;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+    width: 500px;
+    height: 100px;
+  }
+  
+  /* individually adjustmenets each panel */
+  /*About us page   */
+  
+
+
+
+
+  .tex-imag{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: none;
+  }
+   .im-ping img {
+    border: 10px solid #ffe6ac;
+    width: 495px;
+    height: 250px;
+    display: grid;
+    grid-template-rows: 2fr;
+    margin-top:20% ;
+    margin-top:-1% ;
+    
+
+  }
+
+  
+ 
+  /*about us margin */
+  .abou-p {
+    margin-bottom: 8%;
+    padding-top: 5%;
+    padding-right: 5%;
+    /* padding-bottom: 15%; */
+    background-color: #ffe6ac;
+  }
+  /* about us  about us h2 and pargraph */
+  .abou-p h2 {
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  
+  /* service title background whitle /* all headings 1to 6 bold font and weight https://www.w3schools.com/cssref/pr_font_weight.php 
+  https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
+
+  
+  #service {
+    font-size: 70px;
+    margin-top: -5%;
+  }
+  
+  /*  Our service page smartphone image  */
+  
+  /* Our services */
+  .title-p {
+    background-color: #ffe6ac;
+    width: 500px;
+    height: 220px;
+  }
+  /* title and paragraphy formate font size */
+  .title-p h3 {
+    padding-bottom: 3%;
+    padding-top: 1%;
+    font-size: 25px;
+  }
+  .title-p p {
+    padding-bottom: 5%;
+    background-color: #ffe6ac;
+  }
+  
+  /* digital plan button and icon */
+  .button,
+  .button:hover,
+  .button:focus {
+    position: relative;
+    top: 15%;
+    background-color: black;
+    border: 2px solid black;
+  
+    width: 400px;
+    height: 100px;
+    padding: 4%;
+  }
+  .button {
+    color: white;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    font-size: small;
+    text-decoration: none;
+  }
+  /* digital transformation background */
+  .mar-card{
+    display: flex;
+    flex-direction: row;
+   margin-top: -20%;
+   
+   
+  } 
+  /* makerkting photo image */
+  .market{
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-rows: repeat(3,1fr) ;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-auto-rows: auto;
+    position: relative;
+    left: 50%;
+    margin-top: -40%;
+    margin-bottom: 2%;
     
   }
-  .wel-p{
-    width: 700px;
-   height: 100px;
-   }
+  .title-p {
+    background-color: #ffe6ac;
+    padding-bottom: 8%;
+  }
 
-   .wel-p p{
-
-   }
-   .wel-p h1{
+  .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: none;
+     }
+  .vi{
+    background-color: #ffe6ac;
+    padding-bottom: 8%;
     
-   }
+
+  }
+ .video-1{
+  width:300px ;
+  height: 200px ;
+  }
+  .web{
+    width:300px ;
+  height: 200px ;
+  }
+ .news{
+  width:300px ;
+  height: 200px ;
+ }
+  
+  /* Our vision section */
+  /* our vision background image */
+  .vis-s,
+  .special-margin {
+    background-image: url("../images/vision.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 5px solid white;
+    max-width: 1200px;
+  
+    height: 200px;
+    margin: auto 0;
+  }
+  
+  /* paragrah */
+  .vtex-p {
+    color: white;
+  }
+  /* button */
+  
+  .vbut,
+  .vbut:hover,
+  .vbut:focus {
+    display: block;
+    border: 0.5px solid #ffe6ac;
+    background-color: rgb(18, 21, 41);
+  
+    width: 120px;
+    height: 55px;
+    padding: 2% 2% 2% 2%;
+  }
+  .vbut {
+    position: relative;
+    bottom: 15%;
+    color: white;
+  
+    margin-right: 3%;
+    font-size: small;
+    text-decoration: none;
+  }
+  
+  /* Teams section specification */
+  /* our team title  */
+  #team {
+    padding-bottom: 2%;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+  /* teams container */
+  .team-s {
+     max-width: 1200px;
+    margin: 0 auto;
+  }
+  /* text and paragraphs background */
+  .ti-tex-p {
+    background-color: #ffe6ac;
+    width: 500px;
+    height: 220px;
+    /* padding-bottom: ; */
+    margin-bottom: 30%;
+    
+   
+
+  }
+  /* text and heading 2  */
+  .ti-tex-p h2 {
+    
+  }
+  /* text and heading 3  */
+  .ti-tex-p h3 {
+    font-size: 10px;
+    margin-top: -5%;
+  }
+  /* text and heading 4  */
+  .ti-tex-p h4 {
+    color: #c78c06;
+    margin-top: -11%;
+  }
+  /* text and paragrah */
+  .ti-tex-p p {
+    line-height: 1.5;
+  }
+  /* photo/image of bob */
+  .bob {
+    border-top: 5px solid white;
+    margin-top: -28%;
+
+  }
+  
+  /* Contact us and send us a message form 
+  hour of Operation */
+  .width-max,
+  .margin {
+    max-width: 1200px;
+    margin: auto 0;
+    
+  }
+  
+  /* forms  */
+  .end{
+    display: grid;
+    grid-template-row: 1fr 1fr ;
+    justify-content: space-evenly;
+    flex-wrap: none;
+
+  }
+  #contactus {
+    
+    margin-top: -15%;
+  }
+  /* full form */
+  .forms-1 {
+    margin-top: 8%;
+    margin-bottom: 5%;
+    
+  }
+  /* contact us  */
+  .title-h {
+    font-size: 120px;
+  }
+  /* title for send us a message  */
+  .sends {
+    font-size: medium;
+    margin-top: 2%;
+  }
+  
+  .form ul li {
+    font-size: 8px;
+  }
+  .sub,
+  .sub:hover,
+  .sub:focus {
+    background-color: #222;
+    color: #c78c06;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 0.3% 0.3% 0.3% 0.3%;
+    margin-top: 1%;
+  }
+  
+  /*  table of open close operation */
+  caption {
+    position: relative;
+    right: 34%;
+    font-weight: bold;
+  }
+  .open-s table tr th {
+    border: 1px solid black;
+    padding-right: 10%;
+    background-color: #ffe6ac;
+    width: 400px;
+    height: 30px;
+    font-size: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  
+  .open-s table tr td {
+    border: 1px solid black;
+    width: 400px;
+    height: 30px;
+    font-size: 11px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    font-size: 10px;
+  }
+  /* map formate sizes image  */
+  iframe {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 3%;
+    margin-top: -100%;
+    position: relative;
+    left: 45%;
+    
+  }
+  
+  /* footer */
+  footer {
+    display: block;
+    background-color: #222;
+    width: 500px;
+    height: 30px;
+    color: #ffe6ac;
+    font-size: 8px;
+    padding-bottom: 10%;
+    line-height: 2;
+  }
+  /* footer paragraphs */
+  footer p {
+    font-weight: 8px;
+  }
+
+}
+
+   
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
