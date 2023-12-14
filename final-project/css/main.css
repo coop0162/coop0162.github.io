@@ -23,8 +23,7 @@ img {
   /* position: relative;
   left: 25%; */
 
-  width: 500px;
-  height: 400px;
+ width: 100%;
 }
 /* all headings 1to 6 bold font and weight https://www.w3schools.com/cssref/pr_font_weight.php 
 https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
@@ -425,7 +424,7 @@ footer p {
   }
   /* width max 1200px and margin 0 */
   .width-max .margin {
-    margin: auto 0;
+    margin:  0 auto;
     max-width: 1200px;
   }
   /* week 7 boxsizing  and box element standards */
@@ -440,8 +439,7 @@ footer p {
     /* position: relative;
     left: 25%; */
   
-    width: 500px;
-    height: 400px;
+   
   }
   /* all headings 1to 6 bold font and weight https://www.w3schools.com/cssref/pr_font_weight.php 
   https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
@@ -697,18 +695,39 @@ footer p {
    
   } 
   /* makerkting photo image */
-  .market{
+   .cardss{
     /* display: flex;
     flex-direction: row; */
     display: grid;
-    grid-template-rows: repeat(3,1fr) ;
-    grid-template-columns: repeat(3,1fr) ;
-    grid-auto-rows: auto;
-    position: relative;
-    left: 50%;
-    margin-top: -40%;
-    margin-bottom: 2%;
+    grid-template-rows: repeat(3, 1fr) ;
+    grid-template-columns: repeat(6, 1fr) ;
+    grid-template-areas: 
+    "head head head head head head"
+    "digital digital digital marketing marketing marketing "
+    "video video web web print print";
     
+    
+    /* margin-top: -40%;
+    margin-bottom: 2%; */
+    
+  }
+  .service {
+    grid-area: head;
+  }
+  .dig-card{
+    grid-area: digital;
+  }
+  .mar-card{
+    grid-area: marketing;
+  }
+  .video-card{
+    grid-area: video;
+  }
+  .web-card{
+     grid-area: web;
+  }
+  .pri-card{
+    grid-area: print;
   }
   .title-p {
     background-color: #ffe6ac;
