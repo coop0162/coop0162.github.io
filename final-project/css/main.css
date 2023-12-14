@@ -104,7 +104,7 @@ week 5 text-decoration */
 }
 .welcome,
 .wel-p {
-  background-image: url("../images/main-banner.jpg");
+  background-image: url("../images/main-banner.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -418,11 +418,12 @@ footer p {
 
 /**************************Desktop version *********************************/
 @media screen and (min-width: 760px) {
+  /* whole desktop container is boxset box sizing */
   .boxset {
     font-family: "Open Sans", sans-serif;
-   
-    box-sizing: border-box;
+   box-sizing: border-box;
   }
+  /* width max 1200px and margin 0 */
   .width-max .margin {
     margin: auto 0;
     max-width: 1200px;
@@ -467,7 +468,7 @@ footer p {
     line-height: 1.5;
   }
   
-  /* imag star logo */
+  /* imag star logo 75pX75px*/
   .star-logo {
     width: 75px;
     height: 75px;
@@ -494,13 +495,13 @@ footer p {
    display: flex;
    align-items: flex-start;
     background-color: #c78c06;
-    border: 5px solid black;
-  }
-  /* search tool bar home abour services teams contact
+     }
+
+  /* search tool bar home abourt services teams contact
   week 5 text-decoration */
   .to-bar {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
   }
   
 
@@ -511,6 +512,8 @@ footer p {
   }
   /* search bar */
   .search {
+    position: relative;
+    left:50%;
     padding-left: 45%;
   }
 
@@ -521,6 +524,7 @@ footer p {
     max-width: 1200px;
     margin: auto 0;
   }
+  /*  */
   .welcome{
     background-image: url("../images/main-banner.jpg");
     background-repeat: no-repeat;
