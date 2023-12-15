@@ -126,7 +126,6 @@ week 5 text-decoration */
 .wel-p {
   padding-top: 15%;
   color: white;
-
 }
 
 /* both text and header */
@@ -178,7 +177,6 @@ created the button connect with us button  hover and focus
 
 .im-ping img {
   border: 8px solid #ffe6ac;
-
 }
 
 /*about us margin */
@@ -207,7 +205,6 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
 /* Our services */
 .title-p {
   background-color: #ffe6ac;
-
 }
 
 /* title and paragraphy formate font size */
@@ -230,7 +227,6 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
   top: 15%;
   background-color: black;
   border: 2px solid black;
-
 
   padding: 4%;
 }
@@ -266,7 +262,6 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
   border-top: 5px solid white;
   max-width: 1200px;
 
-
   margin: 0 auto;
 }
 
@@ -283,7 +278,6 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
   display: block;
   border: 0.5px solid #ffe6ac;
   background-color: rgb(18, 21, 41);
-
 
   padding: 2% 2% 2% 2%;
 }
@@ -322,7 +316,8 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
 }
 
 /* text and heading 2  */
-.ti-tex-p h2 {}
+.ti-tex-p h2 {
+}
 
 /* text and heading 3  */
 .ti-tex-p h3 {
@@ -423,7 +418,6 @@ caption {
 
 /* map formate sizes image  */
 iframe {
-
   margin-bottom: 3%;
 }
 
@@ -443,14 +437,8 @@ footer p {
   font-sizet: 8px;
 }
 
-
-
-
-
-
 /**************************Desktop version *********************************/
 @media screen and (min-width: 760px) {
-
   /* whole desktop container is boxset box sizing */
   .boxset {
     font-family: "Open Sans", sans-serif;
@@ -522,7 +510,6 @@ footer p {
     justify-content: space-evenly;
     padding-bottom: 5%;
     max-width: 1200px;
-
   }
 
   /* nav bar hover focus background */
@@ -540,7 +527,6 @@ footer p {
     /* flex-direction: row; */
   }
 
-
   /* hover and focus tool bar */
   .to-bar:hover,
   .to-bar:focus {
@@ -554,7 +540,6 @@ footer p {
     padding-left: 45%;
   }
 
-
   /* welcome to three star media page whole */
   /* background welcome image */
   .width-max .margin {
@@ -567,12 +552,10 @@ footer p {
     background-image: url("../images/main-banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
-
-
   }
 
-  .wel-p {}
+  .wel-p {
+  }
 
   /* welcome title and paragraph padding moving  */
 
@@ -582,8 +565,6 @@ footer p {
     padding-left: 20%;
     padding-top: 15%;
     color: white;
-   
-
   }
 
   /* both text and header */
@@ -596,18 +577,14 @@ footer p {
     color: white;
     background-color: #222;
     margin-bottom: 35%;
-
-
   }
 
   /* welcome paragraph  */
   .wel-p p {
-
     box-sizing: border-box;
     font-size: 12px;
     background-color: #222;
     margin-top: -50%;
-
   }
 
   /* https://www.w3schools.com/css/css3_buttons.asp
@@ -621,7 +598,6 @@ footer p {
     top: 15%;
     background-color: #c78c06;
 
-
     padding: 4%;
   }
 
@@ -632,20 +608,14 @@ footer p {
     margin-bottom: 5%;
     margin-right: 5%;
     text-decoration: none;
-
   }
 
   /* individually adjustmenets each panel */
   /*About us page   */
 
-
-
-
-
   .tex-imag {
     display: flex;
     flex-direction: row;
-  
   }
 
   .im-ping img {
@@ -655,11 +625,7 @@ footer p {
     grid-template-rows: 2fr;
     margin-top: 20%;
     margin-top: -1%;
-
-
   }
-
-
 
   /*about us margin */
   .abou-p {
@@ -679,10 +645,9 @@ footer p {
   /* service title background whitle /* all headings 1to 6 bold font and weight https://www.w3schools.com/cssref/pr_font_weight.php 
   https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
 
-
   #service {
     font-size: 70px;
-    margin-top: -5%;
+    /* margin-top: -5%; */
   }
 
   /*  Our service page smartphone image  */
@@ -690,7 +655,6 @@ footer p {
   /* Our services */
   .title-p {
     background-color: #ffe6ac;
-
   }
 
   /* title and paragraphy formate font size */
@@ -713,8 +677,6 @@ footer p {
     top: 15%;
     background-color: black;
     border: 2px solid black;
-
-
     padding: 4%;
   }
 
@@ -726,13 +688,7 @@ footer p {
     text-decoration: none;
   }
 
-  /* digital transformation background */
- 
-
-  /* makerkting photo image */
   .cardss {
-    /* display: flex;
-    flex-direction: row; */
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(6, 1fr);
@@ -740,11 +696,6 @@ footer p {
       "head head head head head head"
       "digital digital digital marketing marketing marketing "
       "video video web web print print";
-
-
-    /* margin-top: -40%;
-    margin-bottom: 2%; */
-
   }
 
   .service {
@@ -779,14 +730,11 @@ footer p {
   .cards {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: none; */
   }
 
   .vi {
     background-color: #ffe6ac;
     padding-bottom: 8%;
-
-
   }
 
   /* .video-1{
@@ -809,7 +757,6 @@ footer p {
     border-top: 5px solid white;
     max-width: 1200px;
 
-
     margin: 0 auto;
   }
 
@@ -827,7 +774,6 @@ footer p {
     border: 0.5px solid #ffe6ac;
     background-color: rgb(18, 21, 41);
 
-
     padding: 2% 2% 2% 2%;
   }
 
@@ -843,203 +789,163 @@ footer p {
 
   /* Teams section specification */
   /* our team title  */
-  #team {
+  /* #team {
     padding-bottom: 2%;
     font-size: 1rem;
     font-weight: 900;
-  }
+  } */
 
   /* teams container */
   .team-s {
     max-width: 1200px;
     margin: 0 auto;
-  }
-
-  /* text and paragraphs background */
-  .ti-tex-p {
-    background-color: #ffe6ac;
-
-    /* padding-bottom: ; */
-    margin-bottom: 30%;
-
-
-
-  }
-
-  /* text and heading 2  */
-  .ti-tex-p h2 {}
-
-  /* text and heading 3  */
-  .ti-tex-p h3 {
-    font-size: 10px;
-    margin-top: -5%;
-  }
-
-  /* text and heading 4  */
-  .ti-tex-p h4 {
-    color: #c78c06;
-    margin-top: -11%;
-  }
-
-  /* text and paragrah */
-  .ti-tex-p p {
-    line-height: 1.5;
-  }
-
-  /* photo/image of bob */
-  .bob {
-    border-top: 5px solid white;
-    margin-top: -28%;
-
-  }
-
-  /* Contact us and send us a message form 
-  hour of Operation */
-  .width-max,
-  .margin {
-    max-width: 1200px;
-    margin: auto 0;
-
-  }
-
-  /* forms  */
-  .end {
     display: grid;
-    /* grid-template-row: 1fr 1fr ;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* john image  */
+  .john{
+    grid-column: 1/2;
+  }
+  /* john text and title */
+  .doe{
+    grid-row: 1/2;
+    width: 100%;
+  }
+   .bob{
+    grid-column: 2/1;
+   }
+   
+   
+
+    /* text and paragraphs background */
+    .ti-tex-p {
+      background-color: #ffe6ac;
+
+      /* padding-bottom: ; */
+      margin-bottom: 30%;
+    }
+
+    /* text and heading 2  */
+    .ti-tex-p h2 {
+    }
+
+    
+
+    /* text and heading 4  */
+    .ti-tex-p h4 {
+      color: #c78c06;
+      margin-top: -11%;
+    }
+
+    /* text and paragrah */
+    .ti-tex-p p {
+      line-height: 1.5;
+    }
+
+   
+
+    /* Contact us and send us a message form 
+  hour of Operation */
+    .width-max,
+    .margin {
+      max-width: 1200px;
+      margin: auto 0;
+    }
+
+    /* forms  */
+    .end {
+      display: grid;
+      /* grid-template-row: 1fr 1fr ;
     justify-content: space-evenly;
     flex-wrap: none; */
+    }
 
+    #contactus {
+      margin-top: -15%;
+    }
+
+    /* full form */
+    .forms-1 {
+      margin-top: 8%;
+      margin-bottom: 5%;
+    }
+
+    /* contact us  */
+    .title-h {
+      font-size: 120px;
+    }
+
+    /* title for send us a message  */
+    .sends {
+      font-size: medium;
+      margin-top: 2%;
+    }
+
+    .form ul li {
+      font-size: 8px;
+    }
+
+    .sub,
+    .sub:hover,
+    .sub:focus {
+      background-color: #222;
+      color: #c78c06;
+      font-size: 10px;
+      text-decoration: none;
+      padding: 0.3% 0.3% 0.3% 0.3%;
+      margin-top: 1%;
+    }
+
+    /*  table of open close operation */
+    caption {
+      position: relative;
+      right: 35%;
+      font-weight: bold;
+    }
+
+    .open-s table tr th {
+      border: 1px solid black;
+      padding-right: 10%;
+      background-color: #ffe6ac;
+
+      font-size: 10px;
+      padding-top: 2%;
+      padding-bottom: 2%;
+    }
+
+    .open-s table tr td {
+      border: 1px solid black;
+
+      font-size: 11px;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      padding-left: 1%;
+      font-size: 10px;
+    }
+
+    /* map formate sizes image  */
+    iframe {
+      margin-bottom: 3%;
+      margin-top: -100%;
+      position: relative;
+      left: 45%;
+    }
+
+    /* footer */
+    footer {
+      display: block;
+      background-color: #222;
+
+      color: #ffe6ac;
+      font-size: 8px;
+      padding-bottom: 10%;
+      line-height: 2;
+    }
+
+    /* footer paragraphs */
+    footer p {
+      font-size: 8px;
+    }
   }
-
-  #contactus {
-
-    margin-top: -15%;
-  }
-
-  /* full form */
-  .forms-1 {
-    margin-top: 8%;
-    margin-bottom: 5%;
-
-  }
-
-  /* contact us  */
-  .title-h {
-    font-size: 120px;
-  }
-
-  /* title for send us a message  */
-  .sends {
-    font-size: medium;
-    margin-top: 2%;
-  }
-
-  .form ul li {
-    font-size: 8px;
-  }
-
-  .sub,
-  .sub:hover,
-  .sub:focus {
-    background-color: #222;
-    color: #c78c06;
-    font-size: 10px;
-    text-decoration: none;
-    padding: 0.3% 0.3% 0.3% 0.3%;
-    margin-top: 1%;
-  }
-
-  /*  table of open close operation */
-  caption {
-    position: relative;
-    right: 35%;
-    font-weight: bold;
-  }
-
-  .open-s table tr th {
-    border: 1px solid black;
-    padding-right: 10%;
-    background-color: #ffe6ac;
-
-    font-size: 10px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-  }
-
-  .open-s table tr td {
-    border: 1px solid black;
-
-    font-size: 11px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 1%;
-    font-size: 10px;
-  }
-
-  /* map formate sizes image  */
-  iframe {
-
-    margin-bottom: 3%;
-    margin-top: -100%;
-    position: relative;
-    left: 45%;
-
-  }
-
-  /* footer */
-  footer {
-    display: block;
-    background-color: #222;
-
-    color: #ffe6ac;
-    font-size: 8px;
-    padding-bottom: 10%;
-    line-height: 2;
-  }
-
-  /* footer paragraphs */
-  footer p {
-    font-size: 8px;
-  }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
