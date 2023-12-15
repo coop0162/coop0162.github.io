@@ -504,27 +504,23 @@ footer p {
 
   .mnav {
     display: flex;
+    flex-basis: 0;
     flex-direction: row;
-
-    background-color: black;
     justify-content: space-evenly;
-    padding-bottom: 5%;
-    max-width: 1200px;
+    background-color: black;
+    flex-flow: row warp;
   }
 
   /* nav bar hover focus background */
   nav ul li:hover,
   nav ul li:focus {
-    display: flex;
-    align-items: flex-start;
     background-color: #c78c06;
   }
 
   /* search tool bar home abourt services teams contact
   week 5 text-decoration */
-  .to-bar {
+  .to-bar:nth-child(1) {
     display: flex;
-    /* flex-direction: row; */
   }
 
   /* hover and focus tool bar */
@@ -535,8 +531,6 @@ footer p {
 
   /* search bar */
   .search {
-    position: relative;
-    left: 50%;
     padding-left: 45%;
   }
 
