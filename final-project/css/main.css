@@ -892,23 +892,19 @@ footer p {
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
   }
- 
+
   .forms-1 {
-    
+    grid-column: 1/2;
+    width: 100%;
   }
 
-    
   .mps {
-    grid-row ;
-    grid-column: 1/-4;
-    ;
-
-  
+    margin-bottom: 20%;
+    padding-right: 50%;
   }
 
   .open-s {
-    grid-column:1/-2 ;
-    grid-row: 1/4 ;
+    grid-row: -1/-2;
   }
 
   /* title for send us a message  */
