@@ -7,24 +7,28 @@
 
   box-sizing: border-box;
 }
+
 .width-max .margin {
   margin: 0 auto;
   max-width: 1200px;
 }
+
 /* week 7 boxsizing  and box element standards */
 *,
 *:after,
 *:before {
   box-sizing: inherit;
 }
+
 /* univerial setting image and heading and paragraphs */
 /* all the images  */
 img {
   /* position: relative;
   left: 25%; */
 
- width: 100%;
+  width: 100%;
 }
+
 /* all headings 1to 6 bold font and weight https://www.w3schools.com/cssref/pr_font_weight.php 
 https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
 h1,
@@ -39,6 +43,7 @@ h6 {
   margin-bottom: 2%;
   padding-top: 5%;
 }
+
 /* all paragraphs sentence spacing 
 https://www.w3schools.com/cssref/pr_dim_line-height.php
  */
@@ -65,12 +70,14 @@ nav ul li {
   background-color: black;
   padding-bottom: 5%;
 }
+
 /* nav bar hover focus background */
 nav ul li:hover,
 nav ul li:focus {
   background-color: #c78c06;
   border: 5px solid black;
 }
+
 /* search tool bar home abour services teams contact
 week 5 text-decoration */
 .to-bar {
@@ -85,10 +92,12 @@ week 5 text-decoration */
 .to-bar:focus {
   color: black;
 }
+
 /* search bar */
 .search {
   padding-left: 45%;
 }
+
 /* week 6  width-max margin */
 .width-max .margin {
   margin: 0 auto;
@@ -101,34 +110,42 @@ week 5 text-decoration */
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .welcome,
 .wel-p {
-  background-image: url("../images/main-banner.jpg") ;
+  background-image: url("../images/main-banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
   max-width: 1200px;
   height: 400px;
 }
+
 /* welcome title and paragraph padding moving  */
 
 .wel-p {
   padding-top: 15%;
   color: white;
-  padding: auto;
+
 }
+
 /* both text and header */
 .wel-p h1 {
   font-size: 50px;
   font-weight: bold;
   padding-bottom: 2%;
   color: white;
-  background-color: 000.6;
+  /* https://www.w3schools.com/css/css_image_transparency.asp */
+  background-color: #222;
+  opacity: 0.6;
 }
+
 /* welcome paragraph  */
 .wel-p p {
   font-size: 12px;
-  background-color: 000.6;
+  /* https://www.w3schools.com/css/css_image_transparency.asp */
+  background-color: #222;
+  opacity: 0.6;
 }
 
 /* https://www.w3schools.com/css/css3_buttons.asp
@@ -146,6 +163,7 @@ created the button connect with us button  hover and focus
   height: 100px;
   padding: 4%;
 }
+
 /*  connect with us -buttons 
  text-decoration: none; */
 .buttons {
@@ -160,8 +178,9 @@ created the button connect with us button  hover and focus
 
 .im-ping img {
   border: 8px solid #ffe6ac;
-  
+
 }
+
 /*about us margin */
 .abou-p {
   margin-bottom: 8%;
@@ -169,6 +188,7 @@ created the button connect with us button  hover and focus
   /* padding-bottom: 15%; */
   background-color: #ffe6ac;
 }
+
 /* about us  about us h2 and pargraph */
 .abou-p h2 {
   padding-bottom: 5%;
@@ -187,14 +207,16 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
 /* Our services */
 .title-p {
   background-color: #ffe6ac;
-  
+
 }
+
 /* title and paragraphy formate font size */
 .title-p h3 {
   padding-bottom: 3%;
   padding-top: 1%;
   font-size: 25px;
 }
+
 .title-p p {
   padding-bottom: 5%;
   background-color: #ffe6ac;
@@ -209,9 +231,10 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
   background-color: black;
   border: 2px solid black;
 
- 
+
   padding: 4%;
 }
+
 .button {
   color: white;
   margin-bottom: 3%;
@@ -219,6 +242,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
   font-size: small;
   text-decoration: none;
 }
+
 /* digital transformation background */
 
 .title-p {
@@ -242,7 +266,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
   border-top: 5px solid white;
   max-width: 1200px;
 
- 
+
   margin: 0 auto;
 }
 
@@ -250,6 +274,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
 .vtex-p {
   color: white;
 }
+
 /* button */
 
 .vbut,
@@ -259,9 +284,10 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
   border: 0.5px solid #ffe6ac;
   background-color: rgb(18, 21, 41);
 
-  
+
   padding: 2% 2% 2% 2%;
 }
+
 .vbut {
   position: relative;
   bottom: 15%;
@@ -279,37 +305,42 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
   font-size: 1rem;
   font-weight: 900;
 }
+
 /* teams container */
 .team-s {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 /* text and paragraphs background */
 .ti-tex-p {
   background-color: #ffe6ac;
   width: 500px;
   height: 220px;
-  padding-bottom: ;
+  /* padding-bottom: ; */
   margin-bottom: 30%;
 }
-/* text and heading 2  */
-.ti-tex-p h2 {
 
-}
+/* text and heading 2  */
+.ti-tex-p h2 {}
+
 /* text and heading 3  */
 .ti-tex-p h3 {
   font-size: 10px;
   margin-top: -5%;
 }
+
 /* text and heading 4  */
 .ti-tex-p h4 {
   color: #c78c06;
   margin-top: -11%;
 }
+
 /* text and paragrah */
 .ti-tex-p p {
   line-height: 1.5;
 }
+
 /* photo/image of bob */
 .bob {
   border-top: 5px solid white;
@@ -328,15 +359,18 @@ hour of Operation */
 #contactus {
   margin-top: -15%;
 }
+
 /* full form */
 .forms-1 {
   margin-top: 8%;
   margin-bottom: 5%;
 }
+
 /* contact us  */
 .title-h {
   font-size: 120px;
 }
+
 /* title for send us a message  */
 .sends {
   font-size: medium;
@@ -346,6 +380,7 @@ hour of Operation */
 .form ul li {
   font-size: 8px;
 }
+
 .sub,
 .sub:hover,
 .sub:focus {
@@ -363,6 +398,7 @@ caption {
   right: 34%;
   font-weight: bold;
 }
+
 .open-s table tr th {
   border: 1px solid black;
   padding-right: 10%;
@@ -384,9 +420,10 @@ caption {
   padding-left: 1%;
   font-size: 10px;
 }
+
 /* map formate sizes image  */
 iframe {
-  
+
   margin-bottom: 3%;
 }
 
@@ -394,15 +431,16 @@ iframe {
 footer {
   display: block;
   background-color: #222;
-  
+
   color: #ffe6ac;
   font-size: 8px;
   padding-bottom: 10%;
   line-height: 2;
 }
+
 /* footer paragraphs */
 footer p {
-  font-weight: 8px;
+  font-sizet: 8px;
 }
 
 
@@ -412,22 +450,26 @@ footer p {
 
 /**************************Desktop version *********************************/
 @media screen and (min-width: 760px) {
+
   /* whole desktop container is boxset box sizing */
   .boxset {
     font-family: "Open Sans", sans-serif;
-   box-sizing: border-box;
+    box-sizing: border-box;
   }
+
   /* width max 1200px and margin 0 */
   .width-max .margin {
-    margin:  0 auto;
+    margin: 0 auto;
     max-width: 1200px;
   }
+
   /* week 7 boxsizing  and box element standards */
   *,
   *:after,
   *:before {
     box-sizing: inherit;
   }
+
   /* univerial setting image and heading and paragraphs */
   /* all the images  */
   /* img {
@@ -449,6 +491,7 @@ footer p {
     margin-bottom: 2%;
     padding-top: 5%;
   }
+
   /* all paragraphs sentence spacing 
   https://www.w3schools.com/cssref/pr_dim_line-height.php
    */
@@ -459,7 +502,7 @@ footer p {
     margin-bottom: 2%;
     line-height: 1.5;
   }
-  
+
   /* imag star logo 75pX75px*/
   .star-logo {
     width: 75px;
@@ -468,26 +511,27 @@ footer p {
     border-left: 5px solid #c78c06;
     background-color: #c78c06;
   }
-  
+
   /* nav bar back ground colour */
-  
+
   .mnav {
     display: flex;
     flex-direction: row;
-    flex-wrap: none;
+
     background-color: black;
     justify-content: space-evenly;
     padding-bottom: 5%;
     max-width: 1200px;
-    
+
   }
+
   /* nav bar hover focus background */
   nav ul li:hover,
   nav ul li:focus {
-   display: flex;
-   align-items: flex-start;
+    display: flex;
+    align-items: flex-start;
     background-color: #c78c06;
-     }
+  }
 
   /* search tool bar home abourt services teams contact
   week 5 text-decoration */
@@ -495,73 +539,77 @@ footer p {
     display: flex;
     /* flex-direction: row; */
   }
-  
+
 
   /* hover and focus tool bar */
   .to-bar:hover,
   .to-bar:focus {
     color: black;
   }
+
   /* search bar */
   .search {
     position: relative;
-    left:50%;
+    left: 50%;
     padding-left: 45%;
   }
 
-  
+
   /* welcome to three star media page whole */
   /* background welcome image */
   .width-max .margin {
     max-width: 1200px;
     margin: 0 auto;
   }
+
   /*  */
-  .welcome{
+  .welcome {
     background-image: url("../images/main-banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 
 
   }
-  .wel-p {
-   
-  }
+
+  .wel-p {}
+
   /* welcome title and paragraph padding moving  */
-  
+
   .wel-p {
     box-sizing: border-box;
 
     padding-left: 20%;
     padding-top: 15%;
     color: white;
-    background-size: no-repeat;
-    
+   
+
   }
+
   /* both text and header */
   .wel-p h1 {
     box-sizing: border-box;
-    
+
     font-size: 50px;
     font-weight: bold;
     padding-bottom: 2%;
     color: white;
-    background-color: #222; 
-    margin-bottom:35%;
-    
+    background-color: #222;
+    margin-bottom: 35%;
+
 
   }
+
   /* welcome paragraph  */
   .wel-p p {
-    
+
     box-sizing: border-box;
     font-size: 12px;
     background-color: #222;
-    margin-top: -50% ;
+    margin-top: -50%;
 
   }
-  
+
   /* https://www.w3schools.com/css/css3_buttons.asp
   created the button connect with us button  hover and focus
    unverial buttons expect for Our Vision
@@ -572,10 +620,11 @@ footer p {
     position: relative;
     top: 15%;
     background-color: #c78c06;
-  
-    
+
+
     padding: 4%;
   }
+
   /*  connect with us -buttons 
    text-decoration: none; */
   .buttons {
@@ -583,34 +632,35 @@ footer p {
     margin-bottom: 5%;
     margin-right: 5%;
     text-decoration: none;
-    
+
   }
-  
+
   /* individually adjustmenets each panel */
   /*About us page   */
-  
 
 
 
 
-  .tex-imag{
+
+  .tex-imag {
     display: flex;
     flex-direction: row;
-    flex-wrap: none;
+  
   }
-   .im-ping img {
+
+  .im-ping img {
     border: 10px solid #ffe6ac;
-   
+
     display: grid;
     grid-template-rows: 2fr;
-    margin-top:20% ;
-    margin-top:-1% ;
-    
+    margin-top: 20%;
+    margin-top: -1%;
+
 
   }
 
-  
- 
+
+
   /*about us margin */
   .abou-p {
     margin-bottom: 8%;
@@ -619,39 +669,42 @@ footer p {
     /* padding-bottom: 15%; */
     background-color: #ffe6ac;
   }
+
   /* about us  about us h2 and pargraph */
   .abou-p h2 {
     padding-bottom: 5%;
     padding-top: 5%;
   }
-  
+
   /* service title background whitle /* all headings 1to 6 bold font and weight https://www.w3schools.com/cssref/pr_font_weight.php 
   https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
 
-  
+
   #service {
     font-size: 70px;
     margin-top: -5%;
   }
-  
+
   /*  Our service page smartphone image  */
-  
+
   /* Our services */
   .title-p {
     background-color: #ffe6ac;
-    
+
   }
+
   /* title and paragraphy formate font size */
   .title-p h3 {
     padding-bottom: 3%;
     padding-top: 1%;
     font-size: 25px;
   }
+
   .title-p p {
     padding-bottom: 5%;
     background-color: #ffe6ac;
   }
-  
+
   /* digital plan button and icon */
   .button,
   .button:hover,
@@ -660,10 +713,11 @@ footer p {
     top: 15%;
     background-color: black;
     border: 2px solid black;
-  
-  
+
+
     padding: 4%;
   }
+
   .button {
     color: white;
     margin-bottom: 3%;
@@ -671,75 +725,86 @@ footer p {
     font-size: small;
     text-decoration: none;
   }
+
   /* digital transformation background */
-  .mar-card{
+  .mar-card {
     display: flex;
     flex-direction: row;
-   margin-top: -20%;
-   
-   
-  } 
+    margin-top: -20%;
+
+
+  }
+
   /* makerkting photo image */
-   .cardss{
+  .cardss {
     /* display: flex;
     flex-direction: row; */
     display: grid;
-    grid-template-rows: repeat(3, 1fr) ;
-    grid-template-columns: repeat(6, 1fr) ;
-    grid-template-areas: 
-    "head head head head head head"
-    "digital digital digital marketing marketing marketing "
-    "video video web web print print";
-    
-    
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+      "head head head head head head"
+      "digital digital digital marketing marketing marketing "
+      "video video web web print print";
+
+
     /* margin-top: -40%;
     margin-bottom: 2%; */
-    
+
   }
+
   .service {
     grid-area: head;
   }
-  .dig-card{
+
+  .dig-card {
     grid-area: digital;
   }
-  .mar-card{
+
+  .mar-card {
     grid-area: marketing;
   }
-  .video-card{
+
+  .video-card {
     grid-area: video;
   }
-  .web-card{
-     grid-area: web;
+
+  .web-card {
+    grid-area: web;
   }
-  .pri-card{
+
+  .pri-card {
     grid-area: print;
   }
+
   .title-p {
     background-color: #ffe6ac;
     padding-bottom: 8%;
   }
 
-  .cards{
+  .cards {
     display: flex;
     flex-direction: row;
-    flex-wrap: none;
-     }
-  .vi{
+    /* flex-wrap: none; */
+  }
+
+  .vi {
     background-color: #ffe6ac;
     padding-bottom: 8%;
-    
+
 
   }
- /* .video-1{
+
+  /* .video-1{
  
   } */
   /* .web{
    
   } */
- /* .news{
+  /* .news{
  
  } */
-  
+
   /* Our vision section */
   /* our vision background image */
   .vis-s,
@@ -749,37 +814,39 @@ footer p {
     background-size: cover;
     border-top: 5px solid white;
     max-width: 1200px;
-  
-    
+
+
     margin: 0 auto;
   }
-  
+
   /* paragrah */
   .vtex-p {
     color: white;
   }
+
   /* button */
-  
+
   .vbut,
   .vbut:hover,
   .vbut:focus {
     display: block;
     border: 0.5px solid #ffe6ac;
     background-color: rgb(18, 21, 41);
-  
-    
+
+
     padding: 2% 2% 2% 2%;
   }
+
   .vbut {
     position: relative;
     bottom: 15%;
     color: white;
-  
+
     margin-right: 3%;
     font-size: small;
     text-decoration: none;
   }
-  
+
   /* Teams section specification */
   /* our team title  */
   #team {
@@ -787,86 +854,96 @@ footer p {
     font-size: 1rem;
     font-weight: 900;
   }
+
   /* teams container */
   .team-s {
-     max-width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
   }
+
   /* text and paragraphs background */
   .ti-tex-p {
     background-color: #ffe6ac;
-    
+
     /* padding-bottom: ; */
     margin-bottom: 30%;
-    
-   
+
+
 
   }
+
   /* text and heading 2  */
-  .ti-tex-p h2 {
-    
-  }
+  .ti-tex-p h2 {}
+
   /* text and heading 3  */
   .ti-tex-p h3 {
     font-size: 10px;
     margin-top: -5%;
   }
+
   /* text and heading 4  */
   .ti-tex-p h4 {
     color: #c78c06;
     margin-top: -11%;
   }
+
   /* text and paragrah */
   .ti-tex-p p {
     line-height: 1.5;
   }
+
   /* photo/image of bob */
   .bob {
     border-top: 5px solid white;
     margin-top: -28%;
 
   }
-  
+
   /* Contact us and send us a message form 
   hour of Operation */
   .width-max,
   .margin {
     max-width: 1200px;
     margin: auto 0;
-    
+
   }
-  
+
   /* forms  */
-  .end{
+  .end {
     display: grid;
     /* grid-template-row: 1fr 1fr ;
     justify-content: space-evenly;
     flex-wrap: none; */
 
   }
+
   #contactus {
-    
+
     margin-top: -15%;
   }
+
   /* full form */
   .forms-1 {
     margin-top: 8%;
     margin-bottom: 5%;
-    
+
   }
+
   /* contact us  */
   .title-h {
     font-size: 120px;
   }
+
   /* title for send us a message  */
   .sends {
     font-size: medium;
     margin-top: 2%;
   }
-  
+
   .form ul li {
     font-size: 8px;
   }
+
   .sub,
   .sub:hover,
   .sub:focus {
@@ -877,60 +954,62 @@ footer p {
     padding: 0.3% 0.3% 0.3% 0.3%;
     margin-top: 1%;
   }
-  
+
   /*  table of open close operation */
   caption {
     position: relative;
     right: 35%;
     font-weight: bold;
   }
+
   .open-s table tr th {
     border: 1px solid black;
     padding-right: 10%;
     background-color: #ffe6ac;
-   
+
     font-size: 10px;
     padding-top: 2%;
     padding-bottom: 2%;
   }
-  
+
   .open-s table tr td {
     border: 1px solid black;
-   
+
     font-size: 11px;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 1%;
     font-size: 10px;
   }
+
   /* map formate sizes image  */
   iframe {
-    
+
     margin-bottom: 3%;
     margin-top: -100%;
     position: relative;
     left: 45%;
-    
+
   }
-  
+
   /* footer */
   footer {
     display: block;
     background-color: #222;
-   
+
     color: #ffe6ac;
     font-size: 8px;
     padding-bottom: 10%;
     line-height: 2;
   }
+
   /* footer paragraphs */
   footer p {
-    font-weight: 8px;
+    font-size: 8px;
   }
 
 }
 
-   
 
 
 
@@ -941,7 +1020,8 @@ footer p {
 
 
 
-  
+
+
 
 
 
