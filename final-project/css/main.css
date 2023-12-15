@@ -822,21 +822,24 @@ footer p {
 
   .john {
     grid-column: 1/2;
+    width: 100%;
   }
 
   /* john text and title */
   .doe {
     margin-bottom: 20%;
+    padding-right: 50%;
   }
   /* bob image  */
   .bob {
+    width: 100%;
   }
 
   /* bob test and title  */
   .rite {
     grid-row: -1/-2;
-    margin-top: -10%;
   }
+
   .john,
   .doe,
   .bob,
@@ -853,8 +856,8 @@ footer p {
   }
 
   /* text and heading 2  */
-  .ti-tex-p h2 {
-  }
+  /* .ti-tex-p h2 {
+  } */
 
   /* text and heading 4  */
   .ti-tex-p h4 {
@@ -863,9 +866,8 @@ footer p {
   }
 
   /* text and paragrah */
-  .ti-tex-p p {
-    /* line-height: 1.5; */
-  }
+  /* .ti-tex-p p {
+    line-height: 1.5; */
 
   /* Contact us and send us a message form 
   hour of Operation */
