@@ -731,6 +731,20 @@ footer p {
     display: flex;
     flex-direction: row;
   }
+  /* moving al the cards our service margin */
+  .service,
+  .dig-card,
+  .mar-card,
+  .video-card,
+  .web-card,
+  .pri-card {
+    margin-top: -50%;
+  }
+  .video-card,
+  .web-card,
+  .pri-card {
+    margin-top: -20%;
+  }
 
   .vi {
     background-color: #ffe6ac;
@@ -822,6 +836,12 @@ footer p {
   .rite {
     grid-row: -1/-2;
     margin-top: -10%;
+  }
+  .john,
+  .doe,
+  .bob,
+  .rite {
+    margin-top: -30%;
   }
 
   /* text and paragraphs background */
