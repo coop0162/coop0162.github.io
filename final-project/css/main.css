@@ -508,7 +508,6 @@ footer p {
     flex-direction: row;
     justify-content: space-evenly;
     background-color: black;
-    flex-flow: row warp;
   }
 
   /* nav bar hover focus background */
@@ -523,6 +522,7 @@ footer p {
   .bar-li:nth-child(1) {
     display: flex;
     flex-direction: row;
+    flex-wrap: none;
   }
 
   /* hover and focus tool bar */
@@ -550,9 +550,6 @@ footer p {
     background-size: cover;
   }
 
-  .wel-p {
-  }
-
   /* welcome title and paragraph padding moving  */
 
   .wel-p {
@@ -573,6 +570,8 @@ footer p {
     color: white;
     background-color: #222;
     margin-bottom: 35%;
+    margin-top: -10%;
+    margin-right: 15%;
   }
 
   /* welcome paragraph  */
@@ -580,7 +579,8 @@ footer p {
     box-sizing: border-box;
     font-size: 12px;
     background-color: #222;
-    margin-top: -50%;
+    margin-top: -35%;
+    margin-right: 15%;
   }
 
   /* https://www.w3schools.com/css/css3_buttons.asp
@@ -590,8 +590,6 @@ footer p {
   .buttons,
   .buttons:hover,
   .buttons:focus {
-    position: relative;
-    top: 15%;
     background-color: #c78c06;
 
     padding: 4%;
@@ -601,8 +599,7 @@ footer p {
    text-decoration: none; */
   .buttons {
     color: #222;
-    margin-bottom: 5%;
-    margin-right: 5%;
+
     text-decoration: none;
   }
 
