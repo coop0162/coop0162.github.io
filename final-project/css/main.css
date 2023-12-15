@@ -782,27 +782,10 @@ footer p {
     display: block;
     border: 0.5px solid #ffe6ac;
     background-color: rgb(18, 21, 41);
-
-    padding: 2% 2% 2% 2%;
-  }
-
-  .vbut {
-    position: relative;
-    bottom: 15%;
-    color: white;
-
-    margin-right: 3%;
-    font-size: small;
-    text-decoration: none;
   }
 
   /* Teams section specification */
   /* our team title  */
-  /* #team {
-    padding-bottom: 2%;
-    font-size: 1rem;
-    font-weight: 900;
-  } */
 
   /* teams container */
   .team-s {
@@ -889,6 +872,7 @@ footer p {
   .forms-1 {
     grid-column: 1/2;
     width: 100%;
+    margin-top: 20%;
   }
 
   .mps {
@@ -897,7 +881,10 @@ footer p {
   }
 
   .open-s {
-    grid-row: -1/-2;
+    grid-row: 1/2;
+    margin-top: -30%;
+    float: right;
+    margin-bottom: 50%;
   }
 
   /* title for send us a message  */
@@ -906,8 +893,10 @@ footer p {
 
   /* map formate sizes image  */
   iframe {
-    width: 60%;
-    height: 60%;
+    /* grid-row: 1/2; */
+    margin-top: 50%;
+    margin-bottom: 20%;
+    padding-left: 50%;
   }
 
   /* footer */
@@ -917,7 +906,7 @@ footer p {
 
     color: #ffe6ac;
     font-size: 8px;
-    padding-bottom: 10%;
+    padding-bottom: %%;
     line-height: 2;
   }
 
