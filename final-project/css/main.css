@@ -518,9 +518,11 @@ footer p {
   }
 
   /* search tool bar home abourt services teams contact
-  week 5 text-decoration */
-  .to-bar:nth-child(1) {
+  week 5 text-decoration  week 11 visual studio code 
+  flex box assignment  */
+  .bar-li:nth-child(1) {
     display: flex;
+    flex-direction: row;
   }
 
   /* hover and focus tool bar */
