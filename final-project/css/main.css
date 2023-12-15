@@ -2,13 +2,13 @@
  font-family: 'Open Sans', sans-serif; */
 .boxset {
   font-family: "Open Sans", sans-serif;
-  margin: auto 0;
+  margin: 0 auto;
   max-width: 1200px;
 
   box-sizing: border-box;
 }
 .width-max .margin {
-  margin: auto 0;
+  margin: 0 auto;
   max-width: 1200px;
 }
 /* week 7 boxsizing  and box element standards */
@@ -91,7 +91,7 @@ week 5 text-decoration */
 }
 /* week 6  width-max margin */
 .width-max .margin {
-  margin: auto 0;
+  margin: 0 auto;
   max-width: 1200px;
 }
 
@@ -99,7 +99,7 @@ week 5 text-decoration */
 /* background welcome image */
 .width-max .margin {
   max-width: 1200px;
-  margin: auto 0;
+  margin: 0 auto;
 }
 .welcome,
 .wel-p {
@@ -123,12 +123,12 @@ week 5 text-decoration */
   font-weight: bold;
   padding-bottom: 2%;
   color: white;
-  background-color: #222;
+  background-color: 000.6;
 }
 /* welcome paragraph  */
 .wel-p p {
   font-size: 12px;
-  background-color: #222;
+  background-color: 000.6;
 }
 
 /* https://www.w3schools.com/css/css3_buttons.asp
@@ -160,8 +160,7 @@ created the button connect with us button  hover and focus
 
 .im-ping img {
   border: 8px solid #ffe6ac;
-  width: 500px;
-  height: 250px;
+  
 }
 /*about us margin */
 .abou-p {
@@ -188,8 +187,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
 /* Our services */
 .title-p {
   background-color: #ffe6ac;
-  width: 500px;
-  height: 220px;
+  
 }
 /* title and paragraphy formate font size */
 .title-p h3 {
@@ -211,8 +209,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
   background-color: black;
   border: 2px solid black;
 
-  width: 400px;
-  height: 100px;
+ 
   padding: 4%;
 }
 .button {
@@ -245,8 +242,8 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
   border-top: 5px solid white;
   max-width: 1200px;
 
-  height: 200px;
-  margin: auto 0;
+ 
+  margin: 0 auto;
 }
 
 /* paragrah */
@@ -262,8 +259,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
   border: 0.5px solid #ffe6ac;
   background-color: rgb(18, 21, 41);
 
-  width: 120px;
-  height: 55px;
+  
   padding: 2% 2% 2% 2%;
 }
 .vbut {
@@ -298,6 +294,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
 }
 /* text and heading 2  */
 .ti-tex-p h2 {
+
 }
 /* text and heading 3  */
 .ti-tex-p h3 {
@@ -324,7 +321,7 @@ hour of Operation */
 .width-max,
 .margin {
   max-width: 1200px;
-  margin: auto 0;
+  margin: 0 auto;
 }
 
 /* forms  */
@@ -389,8 +386,7 @@ caption {
 }
 /* map formate sizes image  */
 iframe {
-  width: 500px;
-  height: 300px;
+  
   margin-bottom: 3%;
 }
 
@@ -398,8 +394,7 @@ iframe {
 footer {
   display: block;
   background-color: #222;
-  width: 500px;
-  height: 30px;
+  
   color: #ffe6ac;
   font-size: 8px;
   padding-bottom: 10%;
@@ -435,12 +430,11 @@ footer p {
   }
   /* univerial setting image and heading and paragraphs */
   /* all the images  */
-  img {
-    /* position: relative;
-    left: 25%; */
+  /* img {
+    with
   
    
-  }
+  } */
   /* all headings 1to 6 bold font and weight https://www.w3schools.com/cssref/pr_font_weight.php 
   https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight */
   h1,
@@ -520,21 +514,19 @@ footer p {
   /* background welcome image */
   .width-max .margin {
     max-width: 1200px;
-    margin: auto 0;
+    margin: 0 auto;
   }
   /*  */
   .welcome{
     background-image: url("../images/main-banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1200px;
-    height: 800px;
+    
 
 
   }
   .wel-p {
-   width: 800px;
-    height: 300px;
+   
   }
   /* welcome title and paragraph padding moving  */
   
@@ -550,8 +542,7 @@ footer p {
   /* both text and header */
   .wel-p h1 {
     box-sizing: border-box;
-    width: 800px;
-    height:200px ;
+    
     font-size: 50px;
     font-weight: bold;
     padding-bottom: 2%;
@@ -563,8 +554,7 @@ footer p {
   }
   /* welcome paragraph  */
   .wel-p p {
-    width: 800px;
-    height:200px ;
+    
     box-sizing: border-box;
     font-size: 12px;
     background-color: #222;
@@ -583,8 +573,7 @@ footer p {
     top: 15%;
     background-color: #c78c06;
   
-    width: 500px;
-    height: 100px;
+    
     padding: 4%;
   }
   /*  connect with us -buttons 
@@ -594,8 +583,7 @@ footer p {
     margin-bottom: 5%;
     margin-right: 5%;
     text-decoration: none;
-    width: 500px;
-    height: 100px;
+    
   }
   
   /* individually adjustmenets each panel */
@@ -612,8 +600,7 @@ footer p {
   }
    .im-ping img {
     border: 10px solid #ffe6ac;
-    width: 495px;
-    height: 250px;
+   
     display: grid;
     grid-template-rows: 2fr;
     margin-top:20% ;
@@ -652,8 +639,7 @@ footer p {
   /* Our services */
   .title-p {
     background-color: #ffe6ac;
-    width: 500px;
-    height: 220px;
+    
   }
   /* title and paragraphy formate font size */
   .title-p h3 {
@@ -675,8 +661,7 @@ footer p {
     background-color: black;
     border: 2px solid black;
   
-    width: 400px;
-    height: 100px;
+  
     padding: 4%;
   }
   .button {
@@ -745,18 +730,15 @@ footer p {
     
 
   }
- .video-1{
-  width:300px ;
-  height: 200px ;
-  }
-  .web{
-    width:300px ;
-  height: 200px ;
-  }
- .news{
-  width:300px ;
-  height: 200px ;
- }
+ /* .video-1{
+ 
+  } */
+  /* .web{
+   
+  } */
+ /* .news{
+ 
+ } */
   
   /* Our vision section */
   /* our vision background image */
@@ -768,8 +750,8 @@ footer p {
     border-top: 5px solid white;
     max-width: 1200px;
   
-    height: 200px;
-    margin: auto 0;
+    
+    margin: 0 auto;
   }
   
   /* paragrah */
@@ -785,8 +767,7 @@ footer p {
     border: 0.5px solid #ffe6ac;
     background-color: rgb(18, 21, 41);
   
-    width: 120px;
-    height: 55px;
+    
     padding: 2% 2% 2% 2%;
   }
   .vbut {
@@ -814,8 +795,7 @@ footer p {
   /* text and paragraphs background */
   .ti-tex-p {
     background-color: #ffe6ac;
-    width: 500px;
-    height: 220px;
+    
     /* padding-bottom: ; */
     margin-bottom: 30%;
     
@@ -908,8 +888,7 @@ footer p {
     border: 1px solid black;
     padding-right: 10%;
     background-color: #ffe6ac;
-    width: 400px;
-    height: 30px;
+   
     font-size: 10px;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -917,8 +896,7 @@ footer p {
   
   .open-s table tr td {
     border: 1px solid black;
-    width: 400px;
-    height: 30px;
+   
     font-size: 11px;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -927,8 +905,7 @@ footer p {
   }
   /* map formate sizes image  */
   iframe {
-    width: 500px;
-    height: 300px;
+    
     margin-bottom: 3%;
     margin-top: -100%;
     position: relative;
@@ -940,8 +917,7 @@ footer p {
   footer {
     display: block;
     background-color: #222;
-    width: 500px;
-    height: 30px;
+   
     color: #ffe6ac;
     font-size: 8px;
     padding-bottom: 10%;
