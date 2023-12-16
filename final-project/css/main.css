@@ -861,30 +861,21 @@ footer p {
   } */
 
   /* full form, location and hours of operation */
-  .allftm {
+  .end {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
   }
-
-  .forms-1 {
-    grid-column: 1/2;
-    width: 100%;
-    margin-top: 20%;
-  }
-
-  .mps {
-    margin-bottom: 20%;
-    padding-right: 50%;
-  }
-
-  .open-s {
+  .contactus {
+    display: grid;
     grid-row: 1/2;
-    margin-top: -30%;
-    float: right;
-    margin-bottom: 50%;
+  }
+
+  .open-s .tab {
+    display: grid;
+    grid-row: 1/4;
   }
 
   /* title for send us a message  */
@@ -893,10 +884,10 @@ footer p {
 
   /* map formate sizes image  */
   iframe {
-    /* grid-row: 1/2; */
-    margin-top: 50%;
-    margin-bottom: 20%;
-    padding-left: 50%;
+    display: grid;
+    grid-row: 1/4;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   /* footer */
@@ -906,7 +897,7 @@ footer p {
 
     color: #ffe6ac;
     font-size: 8px;
-    padding-bottom: %%;
+
     line-height: 2;
   }
 
